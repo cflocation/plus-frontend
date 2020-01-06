@@ -1,0 +1,84 @@
+/*
+IMPORTANT:
+In order to preserve the uniform grid appearance, all cell styles need to have padding, margin and border sizes.
+No built-in (selected, editable, highlight, flashing, invalid, loading, :focus) or user-specified CSS
+classes should alter those!
+*/
+
+
+
+
+
+
+.slick-row.ui-state-active {
+  background: #F5F7D7;
+}
+
+.slick-row {
+  position: absolute;
+  background: #ffffff;
+  border: 0px;
+  line-height: 25px;
+}
+
+.slick-row.selected {
+  z-index: 10;
+  background: #e3f1fa;
+}
+
+.slick-cell {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.slick-group {
+}
+
+.slick-group-toggle {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.slick-group-toggle.expanded {
+  background: url(images/collapselg.gif) no-repeat center center;
+}
+
+.slick-group-toggle.collapsed {
+  background: url(images/expandlg.gif) no-repeat center center;
+}
+
+.slick-group-totals {
+  color: gray;
+  background: white;
+}
+
+.slick-cell.selected {
+  background-color: #ccffcc;
+}
+
+.slick-sortable-placeholder {
+  background: silver !important;
+}
+
+.slick-row.odd {
+  background: #ffffff;
+}
+
+.slick-row.ui-state-active {
+  background: #F5F7D7;
+}
+
+.slick-row.loading {
+  opacity: 0.5;
+  filter: alpha(opacity = 50);
+}
+
+.slick-cell.invalid {
+  border-color: red;
+  
+}
+
+

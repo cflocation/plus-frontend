@@ -1,0 +1,44 @@
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="50%">
+			<!-- label for="roundDecimal" class="header_small-transparent">
+				Ratings
+			</label>
+			<select id="ratingsEnabled" class="rtgSelector rounded-corners">
+				<option value="1" selected="selected">ON</option>
+				<option value="0">OFF</option>
+			</select -->
+		</td>
+		<td align="right">
+			<label for="roundDecimal" class="header_small-transparent">
+				Decimal
+			</label>
+			<select id="roundDecimal" class="rtgSelector rounded-corners">
+				<option value="1">0.9</option>
+				<option value="2" selected="true">0.09</option>
+				<option value="3">0.009</option>
+			</select>
+		</td>
+	</tr>
+</table>
+
+<br/>
+
+<div style="height: 100%;">
+	<div id="surveys-container1" style="height: 90%">
+		<div id="surveys-container" style="width:100%; height:300px;"></div>
+	</div>
+
+	<div id="ratings-multi-survey" align="right"  style="width:100%; height:40px; line-height: 45px;">
+		<input type="checkbox" id="ratingsOn" checked="true" style="display: none;">
+		<input type="checkbox" id="shareOn" checked="true" style="display: none;">
+		<input type="checkbox" id="impressionsOn" checked="true" style="display: none;">				
+		
+		<input type="checkbox" id="rtgProject"  name="rtgProject" value="0">
+		<label id="lblProject" for="rtgProject" >Project</label>
+		<input type="checkbox" id="rtgAverage"  name="rtgAverage" value="0">
+		<label id="lblAverage" for="rtgAverage" >Average</label>
+
+		<button id="rtgResetBooks"  name="rtgProject" value="Reset" class="btn-red">Reset</button>
+	</div>
+</div>

@@ -1,0 +1,107 @@
+<div id="gridNetLogo"></div>
+
+<div id="showcard-loading" style="height: 50%">
+	<br/><br/>
+	<center>
+    	<img src="../i/ajax.gif"></img>
+		<br>
+		Loading ShowCard
+	</center>
+</div>
+
+<div style="padding:5px;display:none;" id="showcard-container">
+	
+	<div id="tab-showcard">
+		<ul>
+			<li id="showcard-tab-info"><a href="#showcard-1">Info</a></li>
+			<li id="showcard-tab-trailer" style="display:none;"><a href="#showcard-2">Clips</a></li>
+			<li id="showcard-tab-cast" 	style="display:none;"><a href="#showcard-3">Cast</a></li>
+			<li id="showcard-tab-social" 	style="display:none;"><a href="#showcard-4">Social</a></li>
+		</ul>
+    
+
+		<div id="showcard-1">
+			<div class="well cover">
+				<center>
+					<div id="showCardImage">
+						<div id="quickAdd" style="padding-top:5px;">
+							<label class="quickAddTitle">Quick Add</label>
+							<div class="quickAddSep"></div>
+						</div>
+					</div>
+
+					<div class="tiny-title ellipsis" style="display: none;"> 
+						<span id="showcard-title"></span> 
+					</div> 
+					
+					<img id="showcard-cover-full" src="" class="showcard-cover-small" style="padding:2px;" />
+					
+					<table width="130px">
+						<tr>
+							<td width="100%" valign="middle" align="center"> 
+								<i  style="color:#5fb760; vertical-align: middle; font-size: 20px;" class="fa fa-plus-circle hand" onclick="$('#showCardImage').toggle();"></i>
+								<label class="hand" onclick="$('#showCardImage').toggle()">
+									<u>Quick Add</u>
+								</label>
+							</td>
+						</tr>
+					</table>
+					
+					<div class="tiny-title ellipsis" style="padding-top: 2px; padding-bottom: 2px;"> 
+						<span id="showcard-date" style="float: left"></span> 
+						<span id="showcard-time" style="float: right"></span> 
+					</div> 
+					
+					<span id="showcard-stars" style="font-size: smaller;"></span>
+				</center>
+			</div>
+			
+			<div id="showcard-epititle"></div>
+
+			<div id="showcard-desc" class="show_card_desc" style="max-height:65px;"></div>
+
+			<br style="clear:both;">
+			
+			<span id="showcard-genre" class="showcard-genre"></span> <span id="showcard-genre2" class="showcard-genre"></span>
+			
+			<br style="clear:both;"><br>
+			
+			<span id="showcard-flag"></span>
+		
+			<div  id="showcard-rating-wrapper">
+				<span id="showcard-rating"></span>
+			</div>
+		
+			<div  id="showcard-year-wrapper">
+				<span id="showcard-year"></span>
+			</div>
+		</div>
+
+		<div id="showcard-2">
+			<center>
+				<div id="showcard-trailers"></div>
+			</center>
+		</div>
+
+
+	    <div id="showcard-3">
+			<center>
+		        <div id="showcard-cast"></div>	
+		        <br style="clear:both;"><br style="clear:both;"><br style="clear:both;">
+		        <div class="showcard-pager">
+		          	<div id="showcard-prev" onclick="showcardPrev()" class="showcard-hand" style="float:left;">
+				  		<i class="fa fa-arrow-circle-left"></i> Previous
+					</div> 
+					<div id="showcard-next" onclick="showcardNext()" class="showcard-hand"  style="float:right;">
+						Next <i class="fa fa-arrow-circle-right"></i>
+					</div>
+		        </div>
+		        <br>
+			</center>
+	    </div>
+
+	    <div id="showcard-4">
+	        <div id="showcard-links"></div>
+	    </div>
+	</div>
+</div>

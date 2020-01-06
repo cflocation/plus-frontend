@@ -1,0 +1,353 @@
+body{
+  background-color: #F2F5F7;
+  min-width:1000px;
+  height:100%;
+}
+
+html{
+  height:100%;
+}
+
+
+
+section.sidebar {
+  width: 300px;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  background-color: #F1F1F1;
+  border-right: 1px solid #ffffff;
+  padding-top: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+
+section.main {
+  top: 45px;
+  margin-left: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #F2F5F7;
+}
+
+
+.padder{
+  padding-left: 5px!important;
+  padding-right: 10px!important;
+}
+
+
+
+
+
+.mainnav{
+  background-color: #174A74;
+  color: #373737;
+}
+
+
+.mainnav .top-bar-section li a:not(.button) {
+    background-color: #174A74;
+    color: #ffffff;
+}
+
+
+.mainnav .top-bar-section li:hover a {
+    background-color: #333333!important;
+    color: white!important;
+}
+
+.mainnav .top-bar-section ul li.active > a {
+    background-color: #F2F5F7!important;
+    color: #272727!important;
+}
+
+
+
+.mainnav .top-bar-section .dropdown li:hover a {
+    background-color: white!important;
+    color: #373737!important;
+}
+
+
+
+
+
+
+.subnav{
+  background-color: transparent!important;
+  color: #373737;
+}
+
+
+/** Removes black background on menu bar **/
+.subnav .top-bar-section ul {
+    background-color: transparent!important;
+    color: #373737;
+}
+
+.subnav .top-bar-section li a:not(.button) {
+    background-color: #F2F5F7!important;
+    color: #272727;
+}
+
+
+
+.subnav .top-bar-section li:hover a {
+    background-color: #272727!important;
+    color: white!important;
+}
+
+
+.subnav .top-bar-section .dropdown li:hover a {
+    background-color: white!important;
+    color: #373737!important;
+}
+
+
+.subnav .top-bar-section .has-dropdown > a:after {
+    border-color: #000000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+
+
+
+select, input, label{
+  padding: 0.24444rem!important;
+  height: 1.75556rem!important;
+  margin-bottom: 11px!important;
+}
+
+
+.postfix{
+  height: 1.75556rem!important;
+  line-height: 1.55556rem!important;
+  margin-bottom: 11px!important;
+}
+
+.button-group li a{
+  margin-bottom: 11px!important;
+}
+
+
+.marginfix a{
+  margin-bottom: 11px!important;
+}
+
+
+
+
+#main-nav .name{
+  padding-top: 7px;
+}
+
+
+.button{
+  background-color: #174A74;
+}
+
+
+
+.grey{
+  background-color: #F2F2F2;
+}
+
+
+.green{
+  background-color: #118914;
+}
+
+
+
+.drkgrey{
+  background-color: #333333!important;
+}
+
+
+.grid-blue{
+  background-color: #E1EFF7;
+}
+
+
+.ui-widget{
+  font-size: 12px;
+}
+
+
+#mainwrapper{
+  padding: 0px 15px 15px 15px;
+}
+
+
+h3{
+  color: #4D4D4D;
+}
+
+
+/* Grids */
+.gridwrapper{
+  background-color: #ffffff;
+  border: 5px solid #deedf8;
+}
+
+
+.slick-group div{
+  background-color: #F1F1F1!important;
+}
+
+.row {
+  max-width: 100%;
+}
+
+
+
+
+
+.ui-dialog-title{
+  padding: 1px!important;
+
+}
+
+
+.textblue{
+  color: #174A74;
+}
+
+
+
+.red{
+  background-color: #CD0A14;
+  color: white;
+}
+
+.darkred{
+  background-color: #A43410;
+  color: white;
+}
+
+.padding{
+  padding: 5px;
+}
+
+.red_alert{
+  background-color: #FEF6F3;
+  color: #CD0A14;
+  border: 1px solid red;
+  text-align: center;
+}
+
+
+
+.centertext{
+  text-align: center;
+}
+
+.pricingheader{
+  text-align: center!important;
+  height: 35px!important;
+}
+
+
+.tip-width{
+  width: 100px!important;
+}
+
+.rate{
+  background-color: #FBFFE3!important;
+}
+
+.ratefixed{
+  background-color: #E9FFE6!important;
+}
+
+.ratepct{
+  background-color: #F5F3F6!important;
+}
+
+
+.gridcolor4{
+  background-color: #E2F0FF!important;
+}
+
+.gridcolor5{
+  background-color: #FFE1D5!important;
+}
+
+.selected{
+  background-color: #CCFECC!important;
+}
+
+
+#datagrid-pricing-cable .selected{
+  background-color: #99ffff!important;
+}
+
+
+.square{
+  border-radius:0px!important;
+}
+
+
+.alert-box{
+  line-height: 20px;
+}
+
+
+.tiny{
+  padding:8px!important;
+}
+
+
+#sidebar-weekday-choice-list
+, #sidebar-update-scheduler-weekday-choice-list
+, #sidebar-custom-breaks-instances-choice-list
+, #sidebar-custom-titles-instances-choice-list
+, #sidebar-groups-choice-list
+, #sidebar-update-scheduler-groups-choice-list
+
+{
+  padding: 5px!important;
+}
+
+
+#sidebar-networks-choice-list
+,#sidebar-update-scheduler-networks-choice-list
+ {
+    padding: 5px!important;
+    max-height: 400px;
+    overflow-y: scroll;
+    width: 500px;
+}
+
+.sidebar-update-scheduler-network-group-li 
+,.sidebar-scheduler-network-group-li {
+    padding-left: 20px;
+}
+.sidebar-scheduler-network-li 
+, .sidebar-update-scheduler-network-li {
+    padding-left: 40px;
+}
+
+
+#sidebar-update-scheduler-networks-choice-list>li>label
+, #sidebar-update-scheduler-networks-choice-list>li>input
+, #sidebar-networks-choice-list>li>label
+, #sidebar-networks-choice-list>li>input
+, #sidebar-groups-choice-list>li>label
+, #sidebar-groups-choice-list>li>input
+, #sidebar-update-scheduler-groups-choice-list>li>label
+, #sidebar-update-scheduler-groups-choice-list>li>input
+, #sidebar-custom-breaks-instances-choice-list>li>label
+, #sidebar-custom-breaks-instances-choice-list>li>input
+, #sidebar-custom-titles-instances-choice-list>li>label
+, #sidebar-custom-titles-instances-choice-list>li>input
+,#sidebar-update-scheduler-weekday-choice-list>li>label
+, #sidebar-update-scheduler-weekday-choice-list>li>input
+,#sidebar-weekday-choice-list>li>label
+, #sidebar-weekday-choice-list>li>input
+{
+   height: 0.756rem !important;
+}

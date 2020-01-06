@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 60.5%;
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+}
+
+
+/* Site
+   -------------------------------- */
+
+
+
+/* Headers
+   -------------------------------- */
+.header-blue{
+	background-color: #32639a;
+	color: white;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #000;
+	padding: 8px;
+}
+
+
+
+
+/* Sidebar
+   -------------------------------- */
+#sidebar{
+	width: 290px;
+}
+   
+#sidebar .row, #sidebar .row-h{
+	background-color: #f1f1f1;
+	clear: both;
+	overflow:hidden;
+	padding-left: 8px;
+	border-bottom: 1px solid #ebe7e4;
+}
+
+#sidebar .row .label{
+	display: block;
+    float: left;
+    width: 90px;
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#sidebar .row .option{
+	display: block;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+}
+
+
+#sidebar .row-h .label{
+	display: block;
+    float: left;
+    width: 90px;
+    font-size: 12px;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#sidebar .row-h .option{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sidebar .input-half{
+	width: 75px;
+}
+
+
+
+/* Forms
+   -------------------------------- */
+input:focus,
+select:focus,
+textarea:focus {
+	border: 1px solid #cccccc;
+	padding: 2px;
+    outline: none;
+    background-color: #ffffcc;
+}
+
+
+input, select{
+	border: 1px solid #aed0ec;
+	padding: 2px;
+}
+
+
+
+/* Buttons
+   -------------------------------- */
+.btn-green{
+	border: 1px solid #333333;
+	background-color: #078900;
+	background-image: none;
+	color: #f5f5f5;
+}
+
+.btn-red{
+	border: 1px solid #333333;
+	background-color: #cc252e;
+	background-image: none;
+	color: #f5f5f5;
+}
+

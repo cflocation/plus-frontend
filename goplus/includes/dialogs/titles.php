@@ -1,0 +1,1 @@
+<center><p>Line Title: &nbsp; <input class="input-half rounded-corners" type="text" id="edit-line-title" style="width:160px;" maxlength="255"></p><BR><button  role="button" class="btn-blue" onclick="datagridProposal.updateLineTitlesFromSelection();needSaving=true;" id="apply-tittle-btn">Apply New Title</button></center><script>	$('#apply-tittle-btn').button();</script>

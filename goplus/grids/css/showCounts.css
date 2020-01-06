@@ -1,0 +1,163 @@
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}	
+
+.boxall{
+	font-weight: 700;
+	font-size: larger;	
+	cursor: pointer;
+}
+.boxnew{
+	color: green !important;
+}
+.boxpremieres{
+	color:#d9534f !important;
+}
+.boxlive{
+	color: #7f03bc !important;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    height: 14px;
+    line-height: 14px;
+    width: 50%;    
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    height: 14px;
+    line-height: 14px;
+    width: 50%;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    height: 14px;
+    line-height: 14px;
+
+    width: 50%;    
+}
+
+.btn-live {
+    background-color: #b024f6;
+    border-color: #7f03bc;
+    color: #fff;
+    height: 14px;
+    line-height: 14px;
+    width: 50%;    
+}
+
+.badge {
+    display: inline-block;
+    min-width: 8px;
+    padding: 3px 5px;
+    font-size: 10px;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+
+.badge, .label {
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.btn-warning .badge {
+    color: #f0ad4e;
+    background-color: #fff;
+}
+
+.btn-danger .badge {
+    color: #d9534f;
+    background-color: #fff;
+}
+
+.btn-live .badge {
+    color: #b024f6;
+    background-color: #fff;
+}
+
+.btn-success .badge {
+    color: #5cb85c;
+    background-color: #fff;
+}
+
+#tab-showcard.ui-tabs .ui-tabs-nav{
+    padding: 0.2em 0.4em 0 !important;
+}
+
+.quickAddSep{
+	height:5px; 
+	width:100%;
+}
+
+#showCardImage {
+    position: absolute;
+    display: none;
+	width: 125px;
+    height: 188px;
+    top: 4px;
+    left: 60px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.quickAddTitle{
+    font-size: 10pt;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+

@@ -1,0 +1,1 @@
+<?php 	$con		= mysqli_connect("db4.showseeker.net","vastdbuser","jK6YK71tJ","logs");	$now 		= date('Y-m-d H:i:s');	$logging = "INSERT INTO eventlogs (userid,eventslogid,request,result,proposalid,createdat,updatedat) VALUES ('{$userid}', '49','PPT','1','{$proposalid}','{$now}','{$now}')";	mysqli_query($con, $logging);?>

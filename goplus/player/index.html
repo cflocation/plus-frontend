@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<link href="https://showseeker.s3.amazonaws.com/public-site/assets/favicon.png" name="favicon" rel="shortcut icon" type="image/png">
+	<title>Trailers | ShowSeeker</title>
+</head>
+<body style="vertical-align: middle; margin:0; padding:5px;overflow:hidden;" bgcolor="#000000">
+
+	<video  width="100%" height="465px" preload controls autoplay style="height:465px; line-height:465px; vertical-align:middle; display: block; margin:0 auto;">
+		<source id="trailer" src="" type="video/mp4" />
+		Your browser does not support the video tag
+	</video>
+</body>
+</html>
+
+<script type="text/javascript">
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var src = getParameterByName('url');
+var trailer = document.getElementById("trailer");
+trailer.src = src;  
+
+</script>

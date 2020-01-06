@@ -1,0 +1,198 @@
+
+.panel {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d7d7d7;
+	margin-bottom: 1.11111rem;
+	padding: 1.11111rem;
+	background: #f2f2f2; }
+.panel.radius {
+	-webkit-border-radius: 3px;
+	border-radius: 3px; }	
+		
+input[type="text"], input[type="email"]{
+	-webkit-appearance: none;
+	background-color: white;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 0.77778rem;
+	margin: 0 0 0.88889rem 0;
+	padding: 0.44444rem;
+	height: 1.65556rem;
+	width: 250px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+	-moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+	transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+	-webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+	text-rendering: auto;
+	color: #555;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 12px system-ui;				
+}  
+
+label{
+	font-size: 0.77778rem;
+	color: #4d4d4d;
+	cursor: pointer;
+	font-weight: normal;
+	line-height: .8;
+	margin-bottom: 0;
+}
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	margin: auto;
+	/*width: 50%;	*/
+	padding: 10px;			
+	min-height: 430px !important;	
+}
+li{
+  margin: 8px 0;
+}
+
+
+button, .button {
+    border-style: solid;
+    border-width: 0px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.11111rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.88889rem;
+    padding-right: 1.77778rem;
+    padding-bottom: 0.94444rem;
+    padding-left: 1.77778rem;
+    font-size: 0.88889rem;
+    background-color: #174A74;
+    border-color: #007295;
+    color: white;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    padding-top: 0.94444rem;
+    padding-bottom: 0.88889rem;
+    -webkit-appearance: none;
+    border: none;
+    font-weight: normal !important;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+}
+
+
+
+button.tiny {
+    padding-top: 0.55556rem;
+    padding-right: 1.11111rem;
+    padding-bottom: 0.61111rem;
+    padding-left: 1.11111rem;
+    font-size: 0.61111rem;
+    color: white;
+    cursor:pointer;
+}
+.tiny {
+    padding: 8px!important;
+}
+.green {
+    background-color: #118914;
+}		
+.resetPwd{
+	opacity: .5 !important;
+    /*text-decoration: line-through;*/
+}	
+#footer {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+    color: #000000;
+    text-align: right;
+    z-index: 1000000;
+    position: absolute;
+    padding-right: 10px;
+    background-color: #fff;
+}

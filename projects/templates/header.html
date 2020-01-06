@@ -1,0 +1,185 @@
+
+<br>
+
+
+<div class="grid-block">
+
+
+<div class="grid-content small-12 medium-6">
+    <h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Overview</h3>
+
+      <label>
+      Project Name
+      <input type="text" placeholder="Text field">
+      </label>
+
+      <label>
+      Description
+      <input type="text" placeholder="Text field">
+      </label>
+
+      <label>Agency</label>
+      <select name="" id="">
+          <option value="">Me</option>
+          <option value="">You</option>
+      </select>
+
+      <label>
+      Website
+      <input type="text" placeholder="Text field">
+      </label>
+
+      <label>
+      Producer
+      <input type="text" placeholder="Text field">
+      </label>
+
+      <label>
+      Schedule Value
+      <input type="text" placeholder="Text field">
+      </label>
+
+      <label>Co-Op</label>
+      <select name="" id="">
+          <option value="">NO</option>
+          <option value="">YES</option>
+      </select>
+
+</div>
+
+
+
+
+
+<div class="grid-content small-12  medium-6">
+    <h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Library</h3>
+
+      <label>
+      Name
+      <input type="text" placeholder="Text field">
+      </label>
+ 
+      <label>
+      Spot ID
+      <input type="text" placeholder="Text field">
+      </label>
+
+      <label>Length</label>
+      <select name="" id="">
+          <option value="">10</option>
+          <option value="">15</option>
+          <option value="" selected="selected">30</option>
+          <option value="">45</option>
+          <option value="">60</option>
+      </select>
+
+      <label>Template for Ad</label>
+      <select name="" id="">
+          <option value=""></option>
+          <option value="">This is a template</option>
+      </select>
+
+      <label>
+      Template ID
+      <input type="text" placeholder="Text field" disabled="disabled">
+      </label>
+
+      <label>
+      File Location
+      <input type="text" placeholder="Text field">
+      </label>
+
+
+      <label>File Format</label>
+      <select name="" id="">
+          <option value="">MP4</option>
+          <option value="">MOV</option>
+          <option value="">WMV</option>
+      </select>
+
+
+</div>
+</div>
+
+<br>
+
+<div class="grid-block">
+
+<div class="grid-content small-12 medium-6">
+<h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Dates</h3>
+        <label>
+      Pre-Production
+      <input type="text" value="10/10/2016">
+      </label>
+            <label>
+      Production
+      <input type="text" value="10/28/2016">
+      </label>
+      <label>
+      Start Date
+      <input type="text" value="12/10/2016">
+      </label>
+</div>
+<div class="grid-content small-12 medium-6">
+  <h4>&nbsp;</h4>
+      <label>
+      Script Presentation
+      <input type="text" value="10/20/2016">
+      </label>
+            <label>
+      Presentation
+      <input type="text" value="10/25/2016">
+      </label>
+            <label>
+      Approval
+      <input type="text" value="10/31/2016">
+      </label>
+  </div>
+
+</div>
+
+<br>
+
+<div class="grid-block">
+
+<div class="grid-content small-12 medium-6">
+<h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Purpose</h3>
+
+  <div class="grid-content">
+    <section class="block-list">
+      <ul>
+      <li ng-repeat="item in purpose">
+      <span>{{item.name}}</span>
+      <div class="switch">
+      <input type="checkbox" id="{{item.id}}">
+      <label for="{{item.id}}"></label>
+      </div>
+      </li>
+      </ul>
+    </section>
+  </div>
+
+</div>
+<div class="grid-content small-12 medium-6">
+  <h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Type of Ad</h3>
+
+  <div class="grid-content">
+    <section class="block-list">
+      <ul>
+      <li ng-repeat="item in typeOfAd">
+      <span>{{item.name}}</span>
+      <div class="switch">
+      <input type="checkbox" id="{{item.id}}">
+      <label for="{{item.id}}"></label>
+      </div>
+      </li>
+      </ul>
+    </section>
+  </div>
+
+  </div>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+

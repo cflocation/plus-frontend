@@ -1,0 +1,230 @@
+body {
+	margin:0; 
+	padding:0px;
+	font-family: Verdana;
+	}
+
+#dlinks{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+#header{
+	background-color: white;
+	padding: 15px;
+	border-bottom: 5px solid #ecefef;
+	text-align: center ; 
+}
+
+
+#ptitle{
+	font-size: 18px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+}
+
+#ins{
+	font-family: Verdana;
+	font-size: 11px;
+	padding-bottom: 10px;
+	color: #333333;
+	text-align: center;
+}
+
+
+#clearall{
+	clear: both;
+}
+
+.finput{
+	border: 2px solid #ecefef !important;
+	height: 36px !important;
+	width: 320px !important;
+	padding: 5px !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
+	color: #666666 !important;
+	background-color: #f4f4f4 !important;
+	float: left !important;
+}
+
+
+#ftext{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#fff;
+	background-color: #184a74;
+	width: 130px;
+	float: right;
+	padding: 5px;
+	padding-top: 10px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+#ftextsm{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#fff;
+	height: 55px;
+	padding: 10px;
+	text-decoration: none;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #666666;
+	background-color: #f4f4f4;
+	border: 5px solid #ecefef;
+}
+
+
+#ftextsm:hover{
+	/*background-color: #ff000b;*/
+	background-color: green;	
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+#container{
+	width: 470px;
+	border: 0px #000 solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.error{
+	border: 3px red solid;
+}
+
+.spacing{
+	padding-bottom: 7px;
+}
+
+
+#result{
+	width: 470px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#footer{
+	font-size: 10px;
+	color: #333333;
+}
+
+#footer a{
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+table,td
+{
+	border               : 1px solid #CCC;
+	border-collapse      : collapse;
+  font                 : small/1.5 "Tahoma", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+}
+table
+{
+	border                :none;
+	border                :1px solid #CCC;
+}
+thead th,
+tbody th
+{
+	background            : #FFF url(http://muffinresearch.co.uk/code/xhtmlandcss/tableshow/th_bck.gif) repeat-x;
+  color                 : #666;  
+	padding               : 5px 10px;
+  border-left           : 1px solid #CCC;
+}
+tbody th
+{
+  background            : #fafafb;
+  border-top            : 1px solid #CCC;
+  text-align            : left;
+  font-weight           : normal;
+}
+tbody tr td
+{
+	padding               : 5px 10px;
+  color                 : #666;
+}
+tbody tr:hover
+{
+  background            : #FFF url(http://muffinresearch.co.uk/code/xhtmlandcss/tableshow/th_bck.gif) repeat;
+}
+
+tbody tr:hover td
+{
+  color                 : #454545;
+}
+tfoot td,
+tfoot th
+{
+  border-left           : none;
+  border-top            : 1px solid #CCC;
+	padding               : 4px;
+  background            : #FFF url(http://muffinresearch.co.uk/code/xhtmlandcss/tableshow/foot_bck.gif) repeat;
+  color                 : #666;
+}
+caption
+{
+	text-align            : left;
+	font-size             : 120%;
+	padding               : 10px 0;
+	color                 : #666;
+}
+table a:link
+{
+	color                 : #666;
+}
+table a:visited
+{
+	color                 : #666;
+}
+table a:hover
+{
+	color                 : #003366;
+	text-decoration       : none;
+}
+table a:active
+{
+	color                 : #003366;
+}
+
+ul {
+  float: left;
+  width: 800px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+li {
+  float: left;
+  width: 6em;
+  margin: 0;
+  padding: 0;
+} 
+
+input{
+	border: 1px #e4e4e4 solid;
+	background-color: white;
+}
+
+
+#success{
+	color: red;
+}

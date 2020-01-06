@@ -1,0 +1,1 @@
+<?php	function create_terms_and_conditions($objPHPPowerPoint, $corporationId, $arrPslInfo, $arrTotals){		include_once('corps/'.$corporationId.'.php');    	return $slide;	}?>

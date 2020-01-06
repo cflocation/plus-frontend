@@ -1,0 +1,113 @@
+.input-quarter{
+	width: 30px;
+	border: 1px solid #aed0ec;
+	padding: 4px;
+}
+
+
+.input-80{
+	width: 70% !important;
+	border: 1px solid #aed0ec;
+	padding: 4px;
+}
+
+
+.spotsCalendar th{
+	background: #d7ebf9;
+	border: 1px solid #aed0ea;
+	color: #2779aa;
+	font-weight: bold;
+	height: 18px !important;
+}
+
+table.spotsCalendar td{
+  border: solid 1px #ddd;
+}
+
+table.spotsCalendar td.wDates{
+	padding-left: 17px !important;
+}
+
+table.spotsCalendar	{
+	border-collapse: collapse !important;
+	width: 100% !important;
+}
+
+.cellByDay{
+	cursor: pointer !important; 
+	cursor: hand !important;
+	color: blue !important;
+}
+
+.cellGrayedOut{
+	background-color: #ccc !important; 
+	color: #999;
+}
+
+.blueText{
+	color: blue !important;
+}
+.redBorder{
+	border: solid 1px red !important;
+}
+
+.redBackground{
+	/*background-color: #ffdada !important;	*/
+	background-color: #d9d9d9 !important;	
+	color: #aaa;
+}
+
+.Rotator2,.Rotator3{
+	/*display: none;*/
+}
+.Rotator4{
+	color: blue;
+}
+
+.dynamicRight{
+	text-align: right !important;
+	padding-right: 10px;
+}
+
+.dynamicCenter{
+	text-align: center;
+}
+
+.sup1,.sup2,.sup3,.sup4{
+	display: none;
+}
+.sup5{
+}
+
+.cellLineOrder{
+	color: #999 !important;	
+}
+.innerLO{
+}
+.weekOut{
+	/*background-color: #f4f1f1 !important;*/
+	color: #333 !important;
+	/*background-color: #fafafa;*/
+}
+.weekIn{
+	color:  #362b36 !important;	
+}
+.greyOutCell{
+	/*background-color: #f1f1f1 !important;*/
+}
+.outOfFlight{
+ 	background-color: #ffe690;
+ 	background-image: url("../i/logos/outofflight.png");
+	color: #444;
+    cursor: pointer;
+	font-family: Tahoma;
+    font-size: 8pt;
+    height: 100% !important;
+    left: 0px !important;
+    margin: 0px !important;
+	position: absolute;
+	text-align: center !important;
+    top: 0px !important;
+    width: 100% !important;
+	word-break: break-word !important;
+}

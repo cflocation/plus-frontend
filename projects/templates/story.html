@@ -1,0 +1,82 @@
+
+<br>
+
+<h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Project Details</h3>
+<!-- this is the best way to handle the collapse -->
+<!-- also wrap the grid block in a grid content -->
+<div class="grid-content">
+  <div class="grid-block small-up-1 medium-up-2">
+      <div class="grid-block"><b>Client:</b> My Client Name<br></div>
+      <div class="grid-block"><b>AE:</b> Mark Elmasri</div>
+      <div class="grid-block"><b>Traffic ID:</b> M332345</div>
+      <div class="grid-block"><b>Agency:</b> None</div>
+      <div class="grid-block"></div>
+      <div class="grid-block"></div>
+  </div>
+</div>
+
+
+<br>
+
+<div class="grid-block">
+<div class="small-6 grid-content"><h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Storyboard</h3></div>
+<div class="small-6 text-right"><a class="success button" href="javascript:void(0)" ><i class="fa fa-plus-circle" aria-hidden="true"></i> New Scene</a></div>
+</div>
+
+<zf-accordion>
+  <zf-accordion-item title="{{item.name}}" ng-repeat="item in story">
+
+
+    <div class="grid-block">
+      <div class="grid-content small-12 medium-6">
+        <h4 class="title-orange"><i class="fa fa-volume-off" aria-hidden="true"></i> Audio</h4>
+        <textarea rows="15">{{item.audio}}</textarea>
+      </div>
+      <div class="grid-content small-12 medium-6">
+        <h4 class="title-orange"><i class="fa fa-film" aria-hidden="true"></i> Video</h4>
+        <textarea rows="15">{{item.video}}</textarea>
+      </div>
+    </div>
+
+
+    <div class="grid-block">
+      <div class="grid-content small-12">
+        <h4 class="title-orange"><i class="fa fa-cloud" aria-hidden="true"></i> Files</h4>
+
+        <table class="tables">
+            <thead>
+              <th></th>
+              <th>Name</th>
+              <th>Download</th>
+              <th class="show-for-medium">Uploaded</th>
+            </thead>
+            <tbody ng-repeat="item in files">
+                <tr> 
+                  <td width="20"><i class="fa {{item.type}}" aria-hidden="true"></i></td>
+                  <td>{{item.name}}</td>
+                  <td>Link</td>
+                  <td class="show-for-medium">{{item.updated}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        
+
+      </div>
+    </div>
+
+    <div class="grid-block">
+      <div class="small-12 text-right">
+          <a class="success button" href="javascript:void(0)" ><i class="fa fa-floppy-o" aria-hidden="true"></i> Save Changes</a>
+          <a class="button" href="javascript:void(0)" ><i class="fa fa-caret-up" aria-hidden="true"></i> Upload File</a>
+      </div>
+    </div>
+
+  </zf-accordion-item>
+</zf-accordion>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

@@ -1,0 +1,33 @@
+/* Calendar Styles */
+.calendar {width:99%; border-collapse:collapse;}
+.calendar tr.navigation th {padding-bottom:20px;}
+.calendar th.prev-month {text-align:left;}
+.calendar th.current-month {text-align:center; font-size:1.5em;}
+.calendar th.next-month {text-align:right;font-size:8pt;}
+.calendar tr.weekdays th {text-align:center;font-size:8pt;}
+.calendar td {width:14%; height:84px; max-height: 85px; vertical-align:top; border:1px solid #CCC;}
+.calendar td.today {background:#FFD;}
+.calendar td.prev-next {background:#EEE;}
+.calendar td.prev-next span.date {color:#9C9C9C;}
+.calendar td.holiday {background:#DDFFDE;}
+.calendar span.date {display:block; padding:3px; line-height:11px; background:#EEE;font-size:9pt;}
+.calendar div.day-content {font-size:8pt;}
+ul.output {margin:0px; padding:0px; font-size:8pt;list-style-type:none ;}
+li.output {margin:0; padding:5px 0; line-height:1em; border-bottom:1px solid #CCC;}
+ul li.output:last-child {border:0;}
+
+.network { color:#008000;} /* green */
+.showtype {color:#F00; } /*red */
+.showtype1 {color:#5801AF; } /*purple */
+
+
+
+
+/* Small Calendar */
+.calendar.small {width:auto; border-collapse:separate;}
+.calendar.small tr.navigation th {padding-bottom:5px;}
+.calendar.small tr.navigation th a span {font-size:1.5em;}
+.calendar.small th.current-month {font-size:1em;}
+.calendar.small tr.weekdays th {text-align:center;}
+.calendar.small td {width:auto; height:auto; padding:4px 8px; text-align:center; border:0; background:#EEE;}
+.calendar.small span.date {display:inline; padding:0; background:none;}

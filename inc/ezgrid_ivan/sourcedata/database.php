@@ -1,0 +1,1 @@
+<?php	//connect to the database	$con = mysql_connect("db4.showseeker.net","vastdbuser","jK6YK71tJ");		if (!$con)  	{  		die('Could not connect: ' . mysql_error());  	}	//select the table	mysql_select_db("ShowSeeker", $con); ?>

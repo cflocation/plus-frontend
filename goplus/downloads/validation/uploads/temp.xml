@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AAAA-Message xmlns="http://www.AAAA.org/schemas/spotTVCableProposal"
+  xmlns:tvb="http://www.AAAA.org/schemas/spotTV"
+  xmlns:tvb-tp="http://www.AAAA.org/schemas/TVBGeneralTypes"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.AAAA.org/schemas/spotTVCableProposal spotTVCableProposal-0.3.0.5R.xsd">
+<AAAA-Values>
+	<SchemaName>SpotTVCableProposal</SchemaName>
+	<SchemaVersion>0.3.0.5A</SchemaVersion>
+	<Media>SpotCable</Media>
+	<BusinessObject>Proposal</BusinessObject>
+	<Action>New</Action>
+	<UniqueMessageID>DF5C57A0-CD1B-25D6-7E849DC284D4976A</UniqueMessageID>
+</AAAA-Values>
+
+<Proposal uniqueIdentifier="MM-92680-2011" version="5" sendDateTime="2011-10-07T10:09:23" weekStartDay="Mo" startDate="2011-10-17" endDate="2011-10-30">
+<Seller companyName="Zolo Media">
+<OfficeName>TX</OfficeName>
+<Salesperson name="Juliane  Reed">
+	<Phone type="voice" location="work">(530)123-1234</Phone>
+	<Email type="primary">jreed@zolomedia.com</Email>
+</Salesperson>
+</Seller>
+<Buyer buyingCompanyName="Zolo Media">
+ 	<OfficeName>TX</OfficeName>
+ 	<BuyerName>Juliane  Reed</BuyerName>
+</Buyer>
+<Advertiser name="Advertiser">
+	<Product name="1QFull"/>
+</Advertiser>
+<Name>Juliane  Reed</Name>
+<SellerReference>79</SellerReference>
+<Outlets>
+	<CableStation syscode="KBNZ" network="KBNZ" outletId="OUT1"/>
+</Outlets>
+<AvailList identifier="AL001" startDate="2011-10-17" endDate="2011-10-30" isPackage="N">
+<Name>Cable Schedule</Name>
+<OutletReferences>
+	<OutletReference outletFromProposalRef="OUT1" outletForListId="OUL1"/>
+</OutletReferences>
+<DemoCategories>
+<DemoCategory DemoId="DM0">
+ <tvb:DemoType>Rating</tvb:DemoType>
+ <tvb:Group>Adults</tvb:Group>
+ <tvb:AgeFrom>25</tvb:AgeFrom>
+ <tvb:AgeTo>54</tvb:AgeTo>
+</DemoCategory>
+</DemoCategories>
+<TargetDemo demoRef="DM0"/>
+<Comment>
+	<tvb-tp:CommentLine>Showseeker Proposal XML Schedule.</tvb-tp:CommentLine>
+</Comment>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>19:30</StartTime>
+       <EndTime>20:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[30 Rock]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>25.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>18:00</StartTime>
+       <EndTime>18:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Access Hollywood]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>20.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>19:00</StartTime>
+       <EndTime>19:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[How I Met Your Mother]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>25.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>23:00</StartTime>
+       <EndTime>23:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[KOIN Local 6 at 11]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>15.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>23:00</StartTime>
+       <EndTime>23:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[KOIN Local 6 at 11]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>15.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>17:00</StartTime>
+       <EndTime>17:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[KOIN Local 6 at 5]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>12.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>05:00</StartTime>
+       <EndTime>06:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[KOIN Local 6 at 5am]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>5.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>06:00</StartTime>
+       <EndTime>07:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[KOIN Local 6 at 6am]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>5.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>12:00</StartTime>
+       <EndTime>12:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[KOIN Local 6 at Noon]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>10.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>09:00</StartTime>
+       <EndTime>10:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Let's Make a Deal]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>15.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>23:30</StartTime>
+       <EndTime>24:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Letterman]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>15.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>14:00</StartTime>
+       <EndTime>15:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Little House on the Prairie]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>12.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>15:00</StartTime>
+       <EndTime>16:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Little House on the Prairie]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>12.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>16:00</StartTime>
+       <EndTime>17:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Andy Griffith Show]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>15.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>12:30</StartTime>
+       <EndTime>13:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Bold and the Beautiful]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>10.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>07:00</StartTime>
+       <EndTime>09:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Early Show]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>9.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>18:30</StartTime>
+       <EndTime>19:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The New Adventures of Old Christine]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>20.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>10:00</StartTime>
+       <EndTime>11:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Price Is Right]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>15.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>13:00</StartTime>
+       <EndTime>14:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Talk]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>20.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>11:00</StartTime>
+       <EndTime>12:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Young and the Restless]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-23">
+	<Rate>11.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:30</StartTime>
+       <EndTime>21:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[2 Broke Girls]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-17">
+	<Rate>135.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>22:00</StartTime>
+       <EndTime>23:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Hawaii Five-0]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-17">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:00</StartTime>
+       <EndTime>20:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[How I Met Your Mother]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-17">
+	<Rate>100.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>21:31</StartTime>
+       <EndTime>22:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Mike & Molly]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-17">
+	<Rate>100.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>21:00</StartTime>
+       <EndTime>21:31</EndTime>
+		<Days>
+    		<tvb-tp:Monday>Y</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Two and a Half Men]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-17" endDate="2011-10-17">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:00</StartTime>
+       <EndTime>21:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[NCIS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-18" endDate="2011-10-18">
+	<Rate>175.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>21:00</StartTime>
+       <EndTime>22:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[NCIS: Los Angeles]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-18" endDate="2011-10-18">
+	<Rate>175.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>22:00</StartTime>
+       <EndTime>23:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Unforgettable]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-18" endDate="2011-10-18">
+	<Rate>125.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>22:00</StartTime>
+       <EndTime>23:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[CSI: Crime Scene Investigation]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-19" endDate="2011-10-19">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>21:00</StartTime>
+       <EndTime>22:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Criminal Minds]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-19" endDate="2011-10-19">
+	<Rate>120.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:00</StartTime>
+       <EndTime>21:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Survivor: South Pacific]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-19" endDate="2011-10-19">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>21:00</StartTime>
+       <EndTime>22:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Person of Interest]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-20" endDate="2011-10-20">
+	<Rate>160.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:00</StartTime>
+       <EndTime>20:31</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Big Bang Theory]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-20" endDate="2011-10-20">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>22:00</StartTime>
+       <EndTime>23:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Mentalist]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-20" endDate="2011-10-20">
+	<Rate>135.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:00</StartTime>
+       <EndTime>21:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[A Gifted Man]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-21" endDate="2011-10-21">
+	<Rate>120.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>22:00</StartTime>
+       <EndTime>23:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Blue Bloods]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-21" endDate="2011-10-21">
+	<Rate>85.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>21:00</StartTime>
+       <EndTime>22:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>Y</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[CSI: NY]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-21" endDate="2011-10-21">
+	<Rate>125.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>22:00</StartTime>
+       <EndTime>23:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[48 Hours Mystery]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-22" endDate="2011-10-22">
+	<Rate>30.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>12:30</StartTime>
+       <EndTime>16:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[College Football]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-22" endDate="2011-10-22">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:00</StartTime>
+       <EndTime>20:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Rules of Engagement]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-22" endDate="2011-10-22">
+	<Rate>45.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>19:00</StartTime>
+       <EndTime>20:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[60 Minutes]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-23" endDate="2011-10-23">
+	<Rate>125.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>07:00</StartTime>
+       <EndTime>08:30</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[CBS News Sunday Morning]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-23" endDate="2011-10-23">
+	<Rate>15.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>22:00</StartTime>
+       <EndTime>23:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[CSI: Miami]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-23" endDate="2011-10-23">
+	<Rate>75.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>08:30</StartTime>
+       <EndTime>09:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[Face the Nation]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-23" endDate="2011-10-23">
+	<Rate>20.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>10:00</StartTime>
+       <EndTime>13:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[NFL Football]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-23" endDate="2011-10-23">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>20:00</StartTime>
+       <EndTime>21:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Amazing Race]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-23" endDate="2011-10-23">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>21:00</StartTime>
+       <EndTime>22:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[The Good Wife]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-23" endDate="2011-10-23">
+	<Rate>125.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+		<StartTime>13:00</StartTime>
+       <EndTime>16:00</EndTime>
+		<Days>
+    		<tvb-tp:Monday>N</tvb-tp:Monday>
+        	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+        	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+        	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+        	<tvb-tp:Friday>N</tvb-tp:Friday>
+        	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>KBNZ</DaypartName>
+<AvailName><![CDATA[NFL Football]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-10-30" endDate="2011-10-30">
+	<Rate>150.00</Rate>
+	<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+</AvailList>
+</Proposal>
+</AAAA-Message>

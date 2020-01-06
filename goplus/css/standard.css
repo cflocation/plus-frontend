@@ -1,0 +1,13 @@
+.gridwrapper-standard {
+    background-color: #ffffff;
+    border: 5px solid #075998 !important;
+    padding: 0;
+}
+.total-standard {
+    background-color: #93d0a7;
+    color: black;
+}
+.totalwrapper-standard {
+    border: 1px solid #93d0a7;
+    color: black;
+}

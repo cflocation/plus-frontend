@@ -1,0 +1,159 @@
+.multiselect {
+	background: #d7ebf9;
+    width:11em;
+    height:auto;
+    border:solid 1px #184a74;
+    overflow:auto;
+    padding: 6px;
+    position: absolute;
+    z-index: 100 !important;
+}
+ 
+.multiselect label {
+    display:block;
+    border-bottom: solid 1px #eee;
+    padding: 4px;
+	font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";
+	font-size: 8pt;
+}
+ 
+.multiselect-on {
+    color:#ffffff;
+    background-color:#32639b;
+    border: solid 1px #3679aa;
+}
+
+
+.multiselect-header-on {
+    color:#ffffff;
+    background-color:#4C1A4C;
+    border: solid 1px #3679aa;
+}
+
+
+.multiselect-header-off {
+    color:#ffffff;
+    background-color:#48a9cc;
+    border: solid 1px #ccc;
+}
+
+.toggleAll{
+    color:#333;
+    background-color:#93D0A7;
+    border: solid 1px #eee;
+}
+
+.multiselect-off {
+
+}
+
+
+
+.baddates{
+	background-color: red !important;
+	color: white;
+	/*background-color:#FF9 !important;
+	border: solid 1px red !important;*/
+}
+
+
+
+.highlightCalendar{
+	background-color: red ;		
+	color: #fff;
+}
+
+.highlight{
+	background-color: #FF9 !important;		
+	color: #444 !important;
+}
+
+/* Panels */
+.mpanel{
+	background-color: #f1f1f1;
+	margin-right: 10px;
+	border: 1px solid #3D003D;
+	white-space: nowrap;
+}
+
+.mpanel .mheader{
+	background-color: #4C1A4C;
+	padding: 8px;
+	font-weight: bold;
+	color: white;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.mbody{
+	padding: 8px !important;
+}
+
+.noXButton::-ms-clear {
+  width : 0;
+  height: 0;
+}
+
+.toggleAll{
+	background-color: #ddd !important;
+	
+}
+
+#keyword-srch-lbl span{
+	margin-left: -3px !important;
+}
+
+
+i.clickableImage{
+	cursor: pointer; 
+	vertical-align: middle;
+}
+
+div.tracker{
+	display: table !important;
+	text-align: center;
+	width: 100% !important;
+	height: 100% !important;
+}
+span.inTracker{	
+	display: table-cell !important;
+	width: 100% !important;
+	height: 100% !important;
+	vertical-align: middle;
+}
+
+th.thdialog{
+	background:#d7ebf9 !important;
+	border: 1px solid #aed0ea !important; 
+	color:#2779aa; font-weight: bold !important;
+	height: 25px !important;
+	font-size: 8pt;
+}
+div.dialogWrapper{
+	padding: 10px !important;
+    text-align: center !important;
+    height: 40px !important;
+    display: table-cell;
+    vertical-align: middle;	
+}
+
+.panel {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d7d7d7;
+	margin-bottom: 1.11111rem;
+	padding: 1.11111rem;
+	background: #f2f2f2; }
+.panel.radius {
+	-webkit-border-radius: 3px;
+	border-radius: 3px; 
+}
+.newsLetterItem{
+	font-weight:500;
+	outline: 0;
+	font-size:12pt;
+	text-decoration:none;
+	cursor:pointer;	
+	line-height: 35px;
+	height: 35px;
+}

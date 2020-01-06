@@ -1,0 +1,43 @@
+
+<br>
+
+
+<div class="grid-block">
+<div class="small-6 grid-content"><h3 class="title-color"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Projects</h3></div>
+<div class="small-6 text-right"><a class="success button" href="#" zf-open="newModal"><i class="fa fa-plus-circle" aria-hidden="true"></i> New Project</a></div>
+</div>
+
+
+<span class="inline-label">
+<input type="search" placeholder="Search for Production">
+<a href="#" class="button">Search</a>
+</span>
+</label>
+
+
+
+
+
+  <table class="tables" ng-controller="ProductionController">
+      <thead>
+        <th></th>
+        <th>Name</th>
+        <th><span class="show-for-medium">Spot ID</span></th>
+        <th><span class="show-for-medium">Length</span></th>
+        <th><span class="show-for-medium">Download</span></th>
+        <th>Updated</th>
+      </thead>
+      <tbody ng-repeat="item in library">
+          <tr> 
+              <td width="20"><i class="fa {{item.active}}" aria-hidden="true"></i></td>
+              <td>{{item.name}}</td>
+              <td><span class="show-for-medium">{{item.id}}</span></td>
+              <td><span class="show-for-medium">{{item.length}}</span></td>
+              <td><span class="show-for-medium"><i class="fa fa-cloud-download" aria-hidden="true"></i></span></td>
+              <td>{{item.updated}}</td>
+          </tr>
+      </tbody>
+  </table>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

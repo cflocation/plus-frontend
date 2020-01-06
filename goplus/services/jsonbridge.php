@@ -1,0 +1,1 @@
+<?php	$ctx = stream_context_create(array('http'=>	    array(	        'timeout' => 1200,  //1200 Seconds is 20 Minutes	    )	));		echo file_get_contents($_GET['url'], false, $ctx);	//$url = $_GET['url']; $page = file_get_contents($url); print $page;?>

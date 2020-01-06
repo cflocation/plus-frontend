@@ -1,0 +1,27 @@
+<div>
+	<div class="header_small-transparent" style="text-align:left;">
+		Saved Settings 
+		<span class="activeDeleteIcon hander"  id="delete-saved-settings" >
+			<button class="btn-red" onclick="deletedSavedRatings();" title="Delete Saved Settings"  style="float:right;"><i class="fa fa-trash"></i></button>
+		</span>
+	</div>
+	<br>
+	<div style="width: 490px; position: relative;">	
+		<div style=" height:310px; width:100%; overflow-y: scroll; overflow-x: hidden;" >
+			<table class="table_usrRatings summaryTblHeader" cellspacing="0" style=" background-color: white; width:100%; border-collapse: collapse;">
+				<thead>
+					<tr class="tr_usrRatings divHeader">
+						<th style="width: 20px;"></th>
+						<th style="width: 120px;" >Name</th>
+						<th style="width: 150px;">Demo(s)</th>
+						<th >Survey</th>
+						<th style="width: 60px;">Type</th>
+					</tr>
+				</thead>
+				
+				<tbody  id="savedRatingsList" style="max-height:380px; overflow-y: scroll; font-size: 8pt"></tbody>
+	
+			</table>
+		</div>
+	</div>
+</div>

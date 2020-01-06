@@ -1,0 +1,135 @@
+/* 
+    Document   : tabs
+    Created on : Feb 14, 2014, 11:14:33 PM
+    Author     : RAJ
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+  body {
+    width: 70%;
+    margin: 100px auto 0 auto;
+    font-family: Arial, Helvetica;
+    font-size: small;
+    /*background-color: #eee;
+    background-image: url(data:image/gif;base64,R0lGODlhCAAIAJEAAMzMzP///////wAAACH5BAEHAAIALAAAAAAIAAgAAAINhG4nudroGJBRsYcxKAA7);*/
+  }
+
+  /* ------------------------------------------------- */
+
+  #div_tabs{
+      width:100%;
+}
+  #tabs {
+    overflow: hidden;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+
+  #tabs li {
+    float: left;
+    margin: 0 -15px 0 0;
+  }
+
+  #tabs a {
+    float: left;
+    position: relative;
+    padding: 0 15px;
+    height: 0;
+    line-height: 30px;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    color: #fff;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #3D3D3D;
+    border-bottom-color: #777\9;
+    opacity: .3;
+    filter: alpha(opacity=30);
+  }
+
+  #tabs a:hover,
+  #tabs a:focus {
+    border-bottom-color: #222222;
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+
+  #tabs a:focus {
+    outline: 0;
+  }
+
+  #tabs #current {
+    z-index: 3;
+    border-bottom-color: #0C69E2;
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+
+  /* ----------- */
+
+  #content {
+      background: #fff;
+      border-top: 2px solid #3d3d3d;
+      padding: 0em;
+      /*height: 220px;*/
+  }
+
+  #content h2,
+    #content h3,
+    #content p {
+      margin: 0 0 15px 0;
+  }
+
+.table-area{
+    padding:0 0 25px;
+    border-color:#e6e6e6;
+    border-style:solid;
+    border-width:0 0 0 1px;
+    margin:0 0 0 0;
+    width:100%;
+    float:left;
+    font-size:11px;
+}
+.table-area th{
+    border-color:#ffffff #d9d8d8 #d9d8d8 #ffffff;
+    border-style:solid;
+    border-width:1px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:3px;
+    font-size:11px;
+    text-align:center;
+}
+.table-area td{
+   /*border-color:#ffffff #d9d8d8 #d9d8d8 #ffffff;*/
+    border-color: #0880DB;
+    border-style:solid;
+    border-width:1px;
+    padding:5px;
+    font-size:120%;
+}
+.td_days{
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    width:90px;
+}
+.td_time {    
+    background-color: #eeeeee;
+    color: #000000;
+    text-align: center;
+    width: 50px;
+    font-weight: bold;
+}

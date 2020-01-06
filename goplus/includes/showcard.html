@@ -1,0 +1,91 @@
+<div id="showcard-loading">
+  <br><br>
+  <center>
+    <img src="i/ajax.gif"></img>
+    <br>
+    Loading ShowCard
+  </center>
+</div>
+
+<div style="padding:10px;display:none;" id="showcard-container">
+    <center>
+      <div id="showcard-title"></div>
+      <br>
+    </center>
+
+
+    <div id="tab-showcard">
+    <ul>
+      <li><a onclick="panelManager('close',true);"><i class="fa fa-arrow-circle-left"></i></a></li>
+      <li id="showcard-tab-info"><a href="#showcard-1">Info</a></li>
+      <li id="showcard-tab-cover" style="display:none;"><a href="#showcard-0"><i class="fa fa-picture-o"></i></a></li>
+      <li id="showcard-tab-trailer" style="display:none;"><a href="#showcard-2">Clips</a></li>
+      <li id="showcard-tab-cast" style="display:none;"><a href="#showcard-3">Cast</a></li>
+      <li id="showcard-tab-social" style="display:none;"><a href="#showcard-4">Social</a></li>
+      
+    </ul>
+    <div id="showcard-0">
+      <center>
+        <img id="showcard-cover" src="" class="showcard-cover"></img>
+        <!-- br style="clear:both;">
+        <br>
+        <span id="showcard-stars"></span -->
+      </center>
+    </div>
+
+    <div id="showcard-1">
+      <center>
+        <img id="showcard-cover-full" src="" class="showcard-cover" style="padding-bottom:10px;"></img>
+        <br style="clear:both;">
+        <span id="showcard-stars" style="font-size: smaller;"></span>
+      </center>
+
+      <div id="showcard-epititle"></div>
+      <div id="showcard-desc" class="show_card_desc"></div>
+      <br style="clear:both;">
+      <span id="showcard-genre" class="showcard-genre"></span> <span id="showcard-genre2" class="showcard-genre"></span>
+        <br style="clear:both;"><br>
+      <span id="showcard-flag"></span>
+
+      <div  id="showcard-rating-wrapper">
+        <span id="showcard-rating"></span>
+      </div>
+
+      <div  id="showcard-year-wrapper">
+        <span id="showcard-year"></span>
+      </div>
+      
+      <center>
+        <div style="display:none;" id="showcard-trailer"></div>
+      </center>
+    </div>
+
+    <div id="showcard-2">
+      <center>
+        <div id="showcard-trailers"></div>
+      </center>
+    </div>
+
+
+    <div id="showcard-3">
+      <center>
+        <div id="showcard-cast"></div>
+        <br style="clear:both;">
+
+        <div id="showcard-pager">
+          <div id="showcard-prev" onclick="showcardPrev()" class="showcard-hand" style="float:left;"><i class="fa fa-arrow-circle-left"></i> Previous</div> <div id="showcard-next" onclick="showcardNext()" class="showcard-hand"  style="float:right;">Next <i class="fa fa-arrow-circle-right"></i></div>
+        </div>
+
+        <br>
+      </center>
+    </div>
+
+    <div id="showcard-4">
+        <div id="showcard-links"></div>
+    </div>
+
+    <center>
+    </center>
+  </div>
+
+</div>

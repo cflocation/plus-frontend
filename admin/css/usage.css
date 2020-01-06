@@ -1,0 +1,108 @@
+@media all and (max-width: 50em) {
+	.my-breakpoint .ui-block-a, 
+	.my-breakpoint .ui-block-b, 
+	.my-breakpoint .ui-block-c,
+	.my-breakpoint .ui-block-d,
+	.my-breakpoint .ui-block-e { 
+		width: 100%; 
+		float:none; 
+	}
+}
+
+
+
+
+
+table {
+    color: black;
+    background: #fff;
+    border: 1px solid #b4b4b4;
+/*    font: bold 17px helvetica;*/
+	font-size: 10pt;
+    padding: 0;
+    margin-top:10px;
+    width: 100%;
+    -webkit-border-radius: 8px;
+}
+     
+table tr td {
+    color: #666;
+    border-bottom: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    padding: 10px 10px 10px 10px;
+}
+         
+table tr td:last-child {
+    border-right: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table th{
+	padding: 10px;
+}
+
+
+table a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+table.useraccounts tr.rowtotals td{
+	background-color: green;	
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: none;	
+}
+
+table.useraccounts tr.office_rowtotals{
+	/*background-color: #ffffcc;*/
+	background-color: #D9F0DB;
+	color: #666699;
+}
+
+
+table.useraccounts tr.market_rowtotals{
+	background-color: #FFFF99;
+	color: #333333;
+}
+
+
+table.useraccounts tr td.rowMarket{
+	background: #184A74;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: none;
+}
+
+table.useraccounts tr td.rowOffice{
+	background: #D0D0D0;
+	color:	#333;
+	font-weight: 700;
+	text-shadow: none;
+}
+
+
+
+
+#reportbody td.report{
+	text-align: center;
+}
+
+
+.nodata{
+	opacity:0.5;
+}
+
+.rowtotals{
+	background-color: #ffffcc;
+}
+
+.nopadding{
+    padding: 0;
+    margin: 0;
+}

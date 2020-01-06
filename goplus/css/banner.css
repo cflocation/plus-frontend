@@ -1,0 +1,36 @@
+#popupwindow {
+	display:none;
+	position:absolute;
+	top:35px;
+	left:970px;
+	z-index:999999;
+	overflow: hidden;
+}
+#backgroundsetting {
+	width:125px;
+	height:105px;
+	position:relative;
+	margin:0px;
+}
+#imagepopup {
+	cursor:pointer;
+	background:url(close.png) repeat; 
+	height:40px;
+	width:40px;
+	margin-top:-250px;
+	margin-left:205px;
+	position:absolute;
+}
+
+#popupDisclaimer {
+	position:relative;
+	z-index:999999;
+}
+
+#disclaimerMain{
+	position:absolute;
+	display: none;
+	top:1px;
+	right:0px;
+	overflow: hidden !important;
+}

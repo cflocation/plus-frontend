@@ -1,0 +1,1 @@
+<center><p>Rate: $ <input class="input-half rounded-corners" onkeypress="return isNumberKey(event, this.value);" type="text" id="edit-line-rate" value="0"></p><BR><button class="btn-blue" onclick="datagridProposal.updateRateFromOverlay('rate');needSaving=true;">Apply Rate</button><input type="hidden" id="edit-line-discount" value="0"/></center>

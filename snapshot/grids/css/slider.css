@@ -1,0 +1,58 @@
+#innerbody {
+    overflow: auto;
+    padding: 0px;
+    border: 0px;
+    width: auto !important;
+}
+
+.track3 {
+    width: 10px;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 2px;
+    border-radius: 10px;
+    -webkit-transition: background 250ms linear;
+    transition: background 250ms linear;
+}
+
+.track3:hover,
+.track3.dragging {
+    background: #d9d9d9; /* Browsers without rgba support */
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.handle3 {
+    width: 7px;
+    right: 0;
+    background: #999;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    -webkit-transition: width 250ms;
+    transition: width 250ms;
+}
+
+.track3:hover .handle3,
+.track3.dragging .handle3 {
+    width: 10px;
+}
+
+
+
+.ui-tabs .ui-tabs-panel{
+	/*padding: .15em 0em !important;*/
+	padding: .01em 0em !important;
+}
+
+.ui-widget-header {
+    border: none !important;
+    background: #ffffff !important;
+}
+
+.ui-widget-header {
+    border: 0px solid #dddddd;
+}
+
+.weeksNav .ui-tabs .ui-tabs-nav{
+    padding: .2em 3.4em 0 !important;	
+}
+
+

@@ -1,0 +1,1313 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <!-- version 0.6 01/02/2018 -->
+    <title>ShowSeeker - Package Builder Tool</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="nav-icon"><img src="assets/img/logo.png"></li>
+                <li data-bind="css: { 'nav-active': menu() == 5 }"><a href="#" data-bind="click: function() { appNavigate(5) }">Package Manager</a></li>
+                <li data-bind="css: { 'nav-active': menu() == 2 }"><a href="#" data-bind="click: function() { appNavigate(2) }">Import Schedule</a></li>
+                <li data-bind="css: { 'nav-active': menu() == 1 }"><a href="#" data-bind="click: function() { appNavigate(1) }">Package Editor</a></li>
+                <li style="background-color: #ff9933;"><a href="#" data-open="modalHelp">Help &amp; Tutorials</a></li> <!-- data-bind="click: function() { appNavigate(1) }" -->
+                <!-- <li style="background-color: #ff9933;"><a href="https://showseeker.s3.amazonaws.com/tutorials/manuals/ShowSeeker_Custom_Package_Tool_Instructions.pdf" target="tutorials">Help &amp; Tutorials</a></li> --> <!-- data-bind="click: function() { appNavigate(1) }" -->
+                <li  class="is-dropdown-submenu-parent" id="right-menu">
+                    <a href="#"><i class="fa fa-user fa-lg"></i></a>
+                    <ul class="menu">
+                        <!-- <li class="logout-menu"><a href="http://cloud1.showseeker.com/goplus-mn2/" target="winShowSeekerPlus"><i class="fa fa-search"> </i> Go to ShowSeeker</a></li>
+                        <li class="logout-menu"><a href="login.html?logout=true">Logout</a></li> -->
+                        <li class="logout-menu"><a href="../goplus/" target="winShowSeekerPlus"><i class="fa fa-search"> </i> Go to ShowSeeker</a></li>
+                        <li class="logout-menu"><a href="../login.html?logout=true">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <section class="sidebar" data-bind="visible: menu() != 5">
+    	<br/>
+    	<div data-bind="visible: menu() == 1" style="display: none;">  <!-- && entryFormMode() == 'EDIT' -->
+    	    <form>
+    	        <div class="row" data-bind="style:{opacity:loadedPackageId() > 0 ? '0.3' : '1'}">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-12 columns">
+    	                        <label for="network-start-date" class="text-center inline">Create a New Package</label>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row" data-bind="style:{opacity:loadedPackageId() > 0 ? '0.3' : '1'}">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-9 columns">
+    	                        <input id="sidebar-pkgmngr-newpackage" data-bind="value:createPackageName, disable:loadedPackageId()>0" type="text" />
+    	                    </div>
+    	                    <div class="small-3 columns">
+    	                        <button type="button" class="tiny button postfix plus-btn-green" data-bind="click:addToNewPackage, disable:loadedPackageId()>0"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Create</button>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	
+    	        <hr class="sidebar-separator" /> 
+    	        <div class="row" data-bind="style:{opacity:loadedPackageId() > 0 ? '0.3' : '1'}">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-12 columns">
+    	                        <label for="network-start-date" class="text-center inline">Add to Existing Package</label>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row" data-bind="style:{opacity:loadedPackageId() > 0 ? '0.3' : '1'}">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-9 columns">
+    	                        <select id="sidebar-package-existsing" data-bind="options: selectPackage, optionsText: 'name', optionsValue: 'id', value: selectedPackage, optionsCaption:'Select Package', disable:loadedPackageId()>0"></select>
+    	                    </div>
+    	                    <div class="small-3 columns">
+    	                        <button type="button" class="tiny button postfix plus-btn-green" data-bind="click:addToExistingPackage, disable:loadedPackageId()>0"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Update</button>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <hr class="sidebar-separator" /> 
+    	        <br/> 
+    	
+    	        <!-- 
+    	            <div class="row">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label for="network-start-date" class="right inline">Filter:&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <input id="gridprojected-title-filter" type="text" data-bind="textInput:gridProjectedTitleFilter" />
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	            <hr class="sidebar-separator" />
+    	         -->
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="selected-show-title" class="right inline">Show:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <input id="selected-show-title" type="text" data-bind="value:selectedShowTitle" disabled="true" />
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="sidebar-network" class="right inline">Network:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <select id="sidebar-network" data-bind="options: selectNetwork, optionsText: function(item){return item.callSign + ' - ' + item.name ;}, optionsValue: 'id', value: selectedNetwork, optionsCaption:'',optionsAfterRender: setOptionStyling"></select>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="sidebar-premiere" class="right inline">Status:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <select id="sidebar-premiere" data-bind="options: statusOptions, optionsText: 'label', optionsValue: 'val', value: selectedStatus"></select>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <!-- <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="sidebar-finale" class="right inline">Finale:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <select id="sidebar-finale" data-bind="options: selectFinale, optionsText: 'label', optionsValue: 'val', value: selectedFinale"></select>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="network-start-date" class="right inline">Live:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <select data-bind="options: selectLive, optionsText: 'label', optionsValue: 'val', value: selectedLive"></select>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div> -->
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="network-start-date" class="right inline">Start Date:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-4 columns prefix-selector">
+    	                            <input type="text" data-bind="datepicker: startDate, value:startDate" />
+    	                        </div>
+    	                        <div class="small-5 columns">&nbsp;</div>
+    	                        <!-- <div class="small-1 columns" data-bind="visible: entryFormMode() == 'ADD'">
+    	                            <span class="postfix prefix prefix-selector">for</span>
+    	                        </div>
+    	                        <div class="small-4 columns" data-bind="visible: entryFormMode() == 'ADD'">
+    	                            <select data-bind="options: selectEpisodes, optionsText: 'label', optionsValue: 'val',value: selectedEpisodes"></select>
+    	                        </div> -->
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="network-start-date" class="right inline">Time:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-4 columns">
+    	                            <select data-bind="options: selectTime, optionsText: 'label', optionsValue: 'val', value: selectedTimeStart"></select>
+    	                        </div>
+    	                        <div class="small-1 columns">
+    	                            <span class="postfix prefix prefix-selector postfix-heightfix">to</span>
+    	                        </div>
+    	                        <div class="small-4 columns">
+    	                            <select data-bind="options: selectTime, optionsText: 'label', optionsValue: 'val', value: selectedTimeEnd"></select>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="network-start-date" class="right inline">Episode:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <input id="network-start-date" type="text" data-bind="value:episodeDesc" />
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <!-- <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label for="network-start-date" class="right inline">Description:&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <textarea data-bind="value:showDesc"></textarea>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div> -->
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label class="right inline">&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <button type="button" class="tiny button plus-btn-green" data-bind="click:updateEntry, disable:entryFormMode() != 'EDIT', visible:loadedPackageId() > 0"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Update Line</button>
+    	                            <button type="button" class="tiny button plus-btn-green" data-bind="click:updateEntryLocal, disable:entryFormMode() != 'EDIT', visible:loadedPackageId()==0"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Update Line</button>
+    	                            <!-- <button type="button" class="tiny button" data-bind="click:authorized, visible: entryFormMode() == 'EDIT' && projectedAuthorized"><i class="fa fa-check" aria-hidden="true"></i> Activate</button>
+    	                            <button type="button" class="tiny button plus-btn-red2" data-bind="click:Deauthorized, visible: entryFormMode() == 'EDIT' && projectedDeauthorized"><i class="fa fa-times" aria-hidden="true"></i> Deactivate</button> -->
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label class="right inline">&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <button type="button" class="tiny button" data-bind="click: function() { appNavigate(5) }"><i class="fa fa-arrow-circle-left fa-lg" aria-hidden="true"></i> Go To Package Manager</button>
+    	                            <!-- <button type="button" class="tiny button" data-bind="click:authorized, visible: entryFormMode() == 'EDIT' && projectedAuthorized"><i class="fa fa-check" aria-hidden="true"></i> Activate</button>
+    	                            <button type="button" class="tiny button plus-btn-red2" data-bind="click:Deauthorized, visible: entryFormMode() == 'EDIT' && projectedDeauthorized"><i class="fa fa-times" aria-hidden="true"></i> Deactivate</button> -->
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <!-- <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label class="right inline">&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <button type="button " class="tiny expanded button plus-btn-red" data-bind="click:resetEntryForm, visible: entryFormMode()=='EDIT' "><i class="fa fa-refresh" aria-hidden="true"></i> Reset</button>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div> -->
+    	    </form>
+    	    <div class="reveal" id="exampleModal1" data-reveal>
+    	        <h4>Find Show</h4>
+    	        <div class="large-12">
+    	            <div class="row collapse">
+    	                <div class="large-11 columns">
+    	                    <input type="text" placeholder="Start typing a show name" data-bind="value:searchTitleText, valueUpdate:'keyup'" />
+    	                </div>
+    	                <div class="large-1 columns" data-bind="click:searchTitle">
+    	                    <a data-open="exampleModal1"><span class="postfix"><i class="fa" aria-hidden="true" data-bind="css:isSearchTitleStatus"></i></span></a>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <table class="hover">
+    	            <tbody data-bind="foreach: searchTitleResult">
+    	                <tr class="hand" data-bind="click:$parent.setSelectedShow">
+    	                    <td data-bind="text:callsign"></td>
+    	                    <td data-bind="text:title" width="100%"></td>
+    	                </tr>
+    	            </tbody>
+    	        </table>
+    	        <button class="close-button" data-close aria-label="Close modal" type="button">
+    	            <span aria-hidden="true">&times;</span>
+    	        </button>
+    	    </div>
+    	    
+    	    <div class="reveal" id="modalConfirmDelItem" data-reveal>
+    	        <h4>Delete Rows</h4>
+    	        <div class="large-12">
+    	            <div class="row">
+    	            	Are you sure you want to delete the selected row(s)?
+    	            </div>
+    	            <br/>
+    	            <div class="row">
+    	                <div class="large-12">
+    	                    <div class="row collapse">
+    	                        <div class="large-6 columns">
+    	                            <button type="button" class="tiny button right" data-bind="click:deleteEntry"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Yes</button>
+    	                        </div>
+    	                        <div class="large-6 columns">
+    	                            <span class="left">&nbsp; </span>
+    	                            <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Close</button>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	    
+    	        </div>
+    	        <button class="close-button" data-close aria-label="Close modal" type="button">
+    	            <span aria-hidden="true">&times;</span>
+    	        </button>
+    	    </div>
+    	</div>
+    	<div data-bind="visible: menu() == 2">
+    	    <br/>
+    	    <form data-abide>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label class="right inline"><!-- Type :-->&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <button type="button" class="tiny button plus-btn" data-open="modalImportSchedule" data-bind="click: function() { appNavigate(2) }" style="margin-bottom: 25px;font-size: 0.7rem;">
+    	                                <i class="fa fa-cloud-download fa-lg" aria-hidden="true"></i> Import Team Schedule
+    	                            </button>
+    	                            <a class="tiny button plus-btn" href="ShowSeeker_Custom-Package-Builder_TEMPLATE_2017.xlsx" style="margin-bottom: 25px;font-size: 0.7rem;">
+    	                                <i class="fa fa-download" aria-hidden="true"></i> Custom File Template
+    	                            </a>
+    	                            <button type="button" class="tiny button plus-btn" data-open="modalImportFile" data-bind="click: function() { appNavigate(2) }" style="margin-bottom: 25px;font-size: 0.7rem;">
+    	                                <i class="fa fa-file-text fa-lg" aria-hidden="true"></i> File Upload
+    	                            </button>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <!--
+    	            <div class="row">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label for="package-option" class="right inline">Add To:&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <div class="tiny  button-group">
+    	                                    <a class="button" data-bind="click: importPackageOption.bind($data, 2), css: { 'plus-btn': importPackageOption() != 2 }">New Package</a>
+    	                                    <a class="button" data-bind="click: importPackageOption.bind($data, 1), css: { 'plus-btn': importPackageOption() != 1 }">Existing Package</a>
+    	                                </div>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	            <div class="row" data-bind="visible: importPackageOption() == 1">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label for="package-existsing" class="right inline">Package:&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <select id="package-existsing" data-bind="options: selectPackage, optionsText: 'name', optionsValue: 'id', value: selectedPackage"></select>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	            <div class="row" data-bind="visible: importPackageOption() == 2">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label for="package-new" class="right inline">Name:&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <input id="package-new" type="text" data-bind="value:newPackageName" required/>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	            <div class="row">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label class="right inline" for="sidebar-import-network" data-bind="css:{'disabled':selImportRowsCnt()==0}">Network:&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <select id="sidebar-import-network" data-bind="options: selectNetwork, optionsText: 'name', optionsValue: 'callSign', value: selectedImportNetwork, optionsCaption:'Select Network', disable:selImportRowsCnt()==0"></select>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	            <div class="row">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label class="right inline">&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <button type="button" class="tiny button" data-bind="click:UpdateNetworkInImport, disable:selImportRowsCnt()==0" id="sidebar-import-updatenet"><i class="fa fa-play fa-lg" aria-hidden="true"></i> &nbsp;Update Network</button>
+    	                                <button type="button" class="tiny button plus-btn-red" data-open="modalConfirmResetImport"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Reset</button>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	            <div class="row">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label class="right inline">&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <button type="button" class="tiny expanded button plus-btn-green" data-bind="click:saveImportedData"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Create Package</button>                            
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div> 
+    	        -->
+    	        <div class="row">
+    	                <div class="small-12">
+    	                    <div class="row collapse">
+    	                        <div class="small-3 columns">
+    	                            <label class="right inline">&nbsp;</label>
+    	                        </div>
+    	                        <div class="row collapse">
+    	                            <div class="small-9 columns">
+    	                                <button type="button" class="tiny button plus-btn-red" data-open="modalConfirmResetImport" data-bind="disable:importRowsCnt()==0" style="margin-bottom: 25px;font-size: 0.7rem;"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Cancel Import</button>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        <div class="row">
+    	            <div class="small-12">
+    	                <div class="row collapse">
+    	                    <div class="small-3 columns">
+    	                        <label class="right inline">&nbsp;</label>
+    	                    </div>
+    	                    <div class="row collapse">
+    	                        <div class="small-9 columns">
+    	                            <button type="button" class="tiny expanded button" data-bind="click: importToPackageEditor,disable:importRowsCnt()==0" style="font-size: 0.8rem;line-height: 1.1rem;">
+    	                                <i class="fa fa-arrow-circle-right fa-lg float-left" aria-hidden="true" style="line-height: 2rem;"></i> Click here to Create &amp; <br/> Edit Package
+    	                            </button>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	    </form>
+    	    <div class="reveal" id="modalImportFile" data-reveal>
+    	        <h4>File Upload</h4>
+    	        <p id="error-msg" class="is-invalid-label" style="display:none;"></p>
+    	        <div class="large-12">
+    	            <form data-abide>
+    	                <div class="row">
+    	                    <div class="large-12">
+    	                        <div class="row collapse">
+    	                            <div class="large-2 columns">
+    	                                <label for="pdf-parser-timezone" class="right inline">File Type:&nbsp;</label>
+    	                            </div>
+    	                            <div class="large-4 columns">
+    	                                <div class="tiny  button-group">
+    	                                    <a class="button" data-bind="click: importFileType.bind($data, 'XLS'), css: { 'plus-btn': importFileType() != 'XLS' }"><i class="fa fa-file-excel-o fa-lg" aria-hidden="true"></i> Excel</a>
+    	                                    <a class="button" data-bind="click: importFileType.bind($data, 'PDF'), css: { 'plus-btn': importFileType() != 'PDF' }"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i> PDF</a>
+    	                                </div>
+    	                            </div>
+    	                            <div class="large-6 columns">&nbsp;</div>
+    	                            <!-- <div class="large-6 columns" data-bind="visible: importFileType() == 'XLS'">
+    	                                <a class="tiny button right" href="ShowSeeker_Custom-Package-Builder_TEMPLATE_2017.xlsx"><i class="fa fa-download" aria-hidden="true"></i> Custom File Template</a>
+    	                            </div> -->
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	    
+    	                <div class="row" data-bind="visible: importFileType() == 'XLS'">
+    	                    <div class="large-12">
+    	                        <div class="row collapse">
+    	                            <div class="large-3 columns">
+    	                                <label for="xls-parser-timezone" class="right inline"><span data-tooltip aria-haspopup="true" class="has-tip" title="Pick the time zone of the file/schedule you are importing.">Schedule Time Zone:&nbsp;</span></label>
+    	    
+    	    
+    	                            </div>
+    	                            <div class="large-3 columns">
+    	                                <select id="xls-parser-timezone" data-bind="options: selectTimeZone,
+    	                                                                            optionsText: 'label',
+    	                                                                            optionsValue: 'val',
+    	                                                                            optionsCaption:'Choose Time Zone',
+    	                                                                            value: selXLSTimeZone"></select>
+    	                            </div>
+    	    
+    	                            <div class="large-2 columns">
+    	                                <label for="xls-parser-file" class="right inline">File:&nbsp;</label>
+    	                            </div>
+    	                            <!-- <div class="large-4"> -->
+    	                                <!-- <button class="button tiny plus-btn" data-bind="click:triggerPDFFileSelection">Select File</button> -->
+    	                                <div class="large-3 columns" data-bind="click:triggerFileSelection">
+    	                                    <input type="text" id="xls-parser-filename" data-bind="value:importFileName, click:triggerFileSelection" disabled="true" placeholder="No file selected" />
+    	                                </div>
+    	                                <div class="large-1 columns">
+    	                                    <span class="postfix hand"  id="xls-parser-filebutton" data-bind="click:triggerFileSelection"><a href="#"><i class="fa fa-folder-open fa-lg" aria-hidden="true"></i></a></span>
+    	                                </div>
+    	                                <input id="xls-parser-file" type="file" style="display: none;"  data-bind="event:{ change: updateXLSFileName }" />
+    	                            <!-- </div> -->
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	                <div class="row" data-bind="visible: importFileType() == 'XLS'">
+    	                    <div class="large-12">
+    	                        <div class="row collapse">
+    	                            <div class="large-6 columns">
+    	                                <button type="button" class="tiny button right" data-bind="click:updloadSelectedFile"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Upload File</button>
+    	                            </div>
+    	                            <div class="large-6 columns">
+    	                                <span class="left">&nbsp; </span>
+    	                                <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Cancel</button>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	    
+    	    
+    	    
+    	    
+    	                
+    	    
+    	    
+    	    
+    	    
+    	    
+    	                <div class="row" data-bind="visible: importFileType() == 'PDF'">
+    	                    <div class="large-12">
+    	                        <div class="row collapse">
+    	                            <div class="large-3 columns">
+    	                                <label for="pdf-parser-timezone" class="right inline"><span data-tooltip aria-haspopup="true" class="has-tip" title="Pick the time zone of the file/schedule you are importing.">Schedule Time Zone:&nbsp;</span></label>
+    	                            </div>
+    	                            <div class="large-3 columns">
+    	                                <select id="pdf-parser-timezone" data-bind="options: selectTimeZone,
+    	                                                                            optionsText: 'label',
+    	                                                                            optionsValue: 'val',
+    	                                                                            optionsCaption:'Select Time Zone',
+    	                                                                            value: selPDFTimeZone"></select>
+    	                            </div>
+    	                            <div class="large-2 columns">
+    	                                <label for="pdf-parser-file" class="right inline">File:&nbsp;</label>
+    	                            </div>
+    	                            <div class="large-3 columns" data-bind="click:triggerPDFFileSelection">
+    	                                <input type="text" id="pdf-parser-filename" data-bind="value:importPDFFileName, click:triggerPDFFileSelection" disabled="true" placeholder="No file selected" />
+    	                            </div>
+    	                            <div class="large-1 columns">
+    	                                <span class="postfix hand" id="pdf-parser-filebutton" data-bind="click:triggerPDFFileSelection"><a href="#"><i class="fa fa-folder-open fa-lg" aria-hidden="true"></i></a></span>
+    	                            </div>
+    	                            <input id="pdf-parser-file" type="file" style="display: none;"  data-bind="event:{ change: updatePDFFileName }" />
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	                <div class="row" data-bind="visible: importFileType() == 'PDF'">
+    	                    <div class="large-12">
+    	                        <div class="row collapse">
+    	                            <div class="large-3 columns">
+    	                                <label for="pdf-parser-sportstype" class="right inline">Sports Type:&nbsp;</label>
+    	                            </div>
+    	                            <div class="large-3 columns">
+    	                                <select id="pdf-parser-sportstype" data-bind="options: selectSportsType,
+    	                                                                              optionsText: 'label',
+    	                                                                              optionsValue: 'val',
+    	                                                                              optionsCaption:'Choose Sport Type',
+    	                                                                              value: selPDFSportsType,
+    	                                                                              event:{ change: loadSportsTeam(selPDFSportsType())}"></select> 
+    	                            </div>
+    	                            <div class="large-2 columns">
+    	                                <label for="pdf-parser-team" class="right inline">Team:&nbsp;</label>
+    	                            </div>
+    	                            <div class="large-4 columns">
+    	                                <select id="pdf-parser-team" data-bind="options: selectSportsTeam,
+    	                                                                        optionsText: 'label',
+    	                                                                        optionsValue: 'team',
+    	                                                                        optionsCaption: 'Choose Team',
+    	                                                                        value: selPDFSportsTeam"></select>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	                <div class="row" data-bind="visible: importFileType() == 'PDF'">
+    	                    <div class="large-12">
+    	                        <div class="row collapse">
+    	                            <!-- <div class="large-3 columns">
+    	                                <label for="pdf-parser-network" class="right inline">Network:&nbsp;</label>
+    	                            </div>
+    	                            <div class="large-3 columns">
+    	                                <select id="pdf-parser-network" data-bind="options: selectNetwork,
+    	                                                                           optionsValue: 'callSign',
+    	                                                                           optionsCaption: 'Select Network',
+    	                                                                           optionsText: function(item) {
+    	                                                                               return item.callSign + ' - ' + item.name
+    	                                                                           },
+    	                                                                           value: selPDFNetwork"></select>
+    	                            </div> -->
+    	    
+    	                            <div class="large-3 columns">
+    	                                <label for="pdf-parser-season" class="right inline">Season:&nbsp;</label>
+    	                            </div>
+    	                            <div class="large-3 columns">
+    	                                <select id="pdf-parser-season" data-bind="options: selectSportsSeason, optionsText: 'label', optionsValue: 'val', value: selSportsSeason"></select> 
+    	                            </div>
+    	                            <div class="large-6 columns">&nbsp;</div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	                <div class="row" data-bind="visible: importFileType() == 'PDF'">
+    	                    <div class="large-12">
+    	                        <div class="row collapse">
+    	                            <div class="large-6 columns">
+    	                                <button type="button" class="tiny button right" data-bind="click:importFromPDF"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Upload File</button>
+    	                            </div>
+    	                            <div class="large-6 columns">
+    	                                <span class="left">&nbsp; </span>
+    	                                <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Cancel</button>
+    	                            </div>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	             </form>
+    	        </div>
+    	        <button class="close-button" data-close aria-label="Close modal" type="button">
+    	            <span aria-hidden="true">&times;</span>
+    	        </button>
+    	    </div>
+    	    <div class="reveal" id="modalImportSchedule" data-reveal>
+    	        <h4>Import Team Schedule</h4>
+    	        <div class="large-12">
+    	            <div class="row">
+    	                <div class="large-12">
+    	                    <div class="row collapse">
+    	                        <div class="large-3 columns">
+    	                            <label for="schedule-sportstype" class="right inline">Sports Type:&nbsp;</label>
+    	                        </div>
+    	                        <div class="large-3 columns">
+    	                            <select id="schedule-sportstype" data-bind="options: selectSportsType,
+    	                                                                        optionsText: 'label',
+    	                                                                        optionsValue: 'val',
+    	                                                                        optionsCaption: 'Choose Sports Type',
+    	                                                                        value: selScheduleSportsType,
+    	                                                                        event:{ change: loadSportsTeam(selScheduleSportsType())}"></select> 
+    	                        </div>
+    	                        <div class="large-3 columns">
+    	                            <label for="schedule-team" class="right inline">Team:&nbsp;</label>
+    	                        </div>
+    	                        <div class="large-3 columns">
+    	                            <select id="schedule-team" data-bind="options: selectSportsTeam,
+    	                                                                  optionsText: 'label',
+    	                                                                  optionsValue: 'id',
+    	                                                                  optionsCaption: 'Choose Team',
+    	                                                                  value: selScheduleSportsTeam"></select>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	            <div class="row">
+    	                <div class="large-12">
+    	                    <div class="row collapse">
+    	                        <div class="large-3 columns">
+    	                            <label for="schedule-timezone" class="right inline"><span data-tooltip aria-haspopup="true" class="has-tip" title="Pick the time zone that you are building the package for. (Ex. If you are in Central Time, and the package is for your market, then pick Central Time. If you are in Central Time, and building a package for a market in Pacific Time, then pick Pacific Time.)">Schedule Time Zone:&nbsp;</span></label>
+    	                        </div>
+    	                        <div class="large-3 columns">
+    	                            <select id="schedule-timezone" data-bind="options: selectTimeZone,
+    	                                                                      optionsText: 'label',
+    	                                                                      optionsValue: 'val',
+    	                                                                      optionsCaption: 'Select Time Zone',
+    	                                                                      value: selSchTimeZone"></select>
+    	                        </div>
+    	                        <div class="large-6 columns"></div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	    
+    	    
+    	    
+    	    
+    	    
+    	            <div class="row">
+    	                <div class="large-12">
+    	                    <div class="row collapse">
+    	                        <div class="large-6 columns">
+    	                            <button type="button" class="tiny button right" data-bind="click:downloadScheduleXLS"><i class="fa fa-file-excel-o fa-lg" aria-hidden="true"></i> Download Excel To Computer</button>
+    	                        </div>
+    	                        <div class="large-1 columns">&nbsp;</div>
+    	                        <div class="large-5 columns">
+    	                            <button type="button" class="tiny button left" data-bind="click:displayScheduleInGrid"><i class="fa fa-th fa-lg" aria-hidden="true"></i> Edit Imported Schedule</button>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	        <button class="close-button" data-close aria-label="Close modal" type="button">
+    	            <span aria-hidden="true">&times;</span>
+    	        </button>
+    	        <br/>
+    	        <div class="row">
+    	            <div class="large-12">
+    	                <div class="row collapse">
+    	                    <p class="schedule-disclaimer">Note:  Schedule information was accurate at the time of posting; however, schedules may change and should be reviewed and validated before publishing.  ShowSeeker provides this information as a courtesy and as a starting point for package creation but does not guarantee its accuracy.  Users will need to assign the appropriate network call signs to local packages.</p>
+    	                </div>
+    	            </div>
+    	        </div>
+    	    </div>
+    	    <div class="reveal" id="modalConfirmResetImport" data-reveal>
+    	        <h4>Reset Import</h4>
+    	        <div class="large-12">
+    	            <div class="row">
+    	            	Are you sure you want to reset the import? Any unsaved data will be lost.<br/> Click on Yes to continue with reset.
+    	            </div>
+    	            <br/>
+    	            <div class="row">
+    	                <div class="large-12">
+    	                    <div class="row collapse">
+    	                        <div class="large-6 columns">
+    	                            <button type="button" class="tiny button right" data-bind="click:cancelImport"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Yes</button>
+    	                        </div>
+    	                        <div class="large-6 columns">
+    	                            <span class="left">&nbsp; </span>
+    	                            <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Close</button>
+    	                        </div>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	    
+    	        </div>
+    	        <button class="close-button" data-close aria-label="Close modal" type="button">
+    	            <span aria-hidden="true">&times;</span>
+    	        </button>
+    	    </div>
+    	</div>
+    </section>
+    <section class="main" data-bind="style:{marginLeft: menu() != 5 ? '300px' : '0px'}">
+    	<div data-bind="visible: menu() == 2">
+    		<div class="proposalmanagerwrapper rounded-corners">
+    			<div class="headers proposalmanager">
+    				<i class="fa fa-th-list"></i> 		
+    				<span></span>
+    				<div class="float-right" >
+    					<!-- <button class="button tiny alert" title="Delete Lines" data-bind="click:removeRowsFromImport, disable:selImportRowsCnt()==0"><i class="fa fa-trash fa-lg"></i></button>  -->
+    					<button class="button tiny" title="Remove past date entries" data-open="modalConfirmRemoveold"><i class="fa fa-calendar-times-o fa-lg"></i></button>
+    				</div>
+    			</div>
+    			<div class="gridwrapper">
+    				<div id="importGrid" style="width:100%;height:500px;"></div>
+    			</div>
+    		</div>
+    		<div class="reveal" id="modalConfirmRemoveold" data-reveal>
+    		    <h4>Remove Past Dates</h4>
+    		    <div class="large-12">
+    		        <div class="row">
+    		        	This will remove all the passed events. Are you sure you want to continue?
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <div class="large-12">
+    		                <div class="row collapse">
+    		                    <div class="large-6 columns">
+    		                        <button type="button" class="tiny button right" data-bind="click:removeOldEntries"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Remove Past Dates</button>
+    		                    </div>
+    		                    <div class="large-6 columns">
+    		                        <span class="left">&nbsp; </span>
+    		                        <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Close</button>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </div>
+    		
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<div class="reveal" id="modalOldItemsAuto" data-reveal>
+    		    <h4>Remove Past Dates</h4>
+    		    <div class="large-12">
+    		        <div class="row">
+    		            The Schedule contains event that have passed, would you like us to remove those dates?
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <div class="large-12">
+    		                <div class="row collapse">
+    		                    <div class="large-6 columns">
+    		                        <button type="button" class="tiny button right" data-bind="click:removeOldEntries"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Remove Past Dates</button>
+    		                    </div>
+    		                    <div class="large-6 columns">
+    		                        <span class="left">&nbsp; </span>
+    		                        <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Close</button>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </div>
+    		
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<div class="reveal" id="modalWelcome" data-reveal>
+    		    <div class="large-12">
+    		        <div class="row">
+    		        	<b>Welcome to the ShowSeeker Custom Package Builder.</b> <br/>Please choose what you would like to work on:
+    		            
+    		            <br/><br/>
+    		            <a href="#" data-open="modalImportSchedule" aria-controls="modalImportSchedule" aria-haspopup="true" tabindex="0">
+    		                <i class="fa fa-cloud-download fa-lg" aria-hidden="true"></i> <span style="text-decoration: underline;">Import Team Schedule</span>
+    		            </a>
+    		            allows you to pick your regional Team’s sports schedule and import the schedule for creating, editing and exporting into ShowSeeker as a custom package.
+    		
+    		            <br/><br/>
+    		            <a href="ShowSeeker_Custom-Package-Builder_TEMPLATE_2017.xlsx">
+    		                <i class="fa fa-download" aria-hidden="true"></i>  <span style="text-decoration: underline;">Custom File Template</span>
+    		            </a>
+    		            opens a formatted Excel document where you may create your own custom package for direct export to ShowSeeker.
+    		
+    		            <br/><br/>
+    		            <a href="#" data-open="modalImportFile" aria-controls="modalImportFile" aria-haspopup="true" tabindex="0">
+    		                <i class="fa fa-file-text fa-lg" aria-hidden="true"></i>  <span style="text-decoration: underline;">File Upload</span>
+    		            </a>
+    		            allows you to choose a previously saved Excel or PDF file and bring it into the Package Editor when you’re ready to edit and export to ShowSeeker.
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <input type="checkbox" id="chk-do-not-show-welcome">
+    		            <label for="chk-do-not-show-welcome">
+    		                I understand the options, do not show me this message again.
+    		            </label>
+    		        </div>
+    		        <div class="row">
+    		            <div class="large-12 text-center">
+    		                <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Close</button>
+    		            </div>
+    		        </div>
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    	</div>
+        <div data-bind="visible: menu() == 5" style="display: none;">
+    		<style type="text/css">
+    			.btn-green {
+    			    border: 1px solid #035700 !important;
+    			    background-color: #0C7500 !important;
+    			    background-image: none !important;
+    			    color: #f5f5f5 !important;
+    			}
+    			.mpanel {
+    			    background-color: #f1f1f1;
+    			    margin-right: 10px;
+    			    border: 1px solid #3D003D;
+    			    white-space: nowrap;
+    			}
+    			.rounded-corners {
+    			    -moz-border-radius: 2px;
+    			    -webkit-border-radius: 2px;
+    			    -khtml-border-radius: 2px;
+    			    border-radius: 2px;
+    			}
+    		
+    			.mpanel .mheader {
+    			    background-color: #4C1A4C;
+    			    padding: 8px;
+    			    font-weight: bold;
+    			    color: white;
+    			    font-family: Arial;
+    			    font-size: 12px;
+    			}
+    		
+    			.mbody {
+    			    padding: 8px !important;
+    			}
+    		
+    			.proposalmanagerwrapper {
+    			    border: 1px solid #3B0E3C;
+    			}
+    		
+    			.proposalmanager {
+    			    background-color: #3B0E3C;
+    			    color: #fff;
+    			    border-bottom: 1px solid #9EC4E6;
+    			    font-weight: normal;
+    			}
+    		
+    			.headers {
+    			    padding: 4px;
+    			    font-weight: bold;
+    			    color: white;
+    			    font-family: Arial;
+    			    font-size: 12px;
+    			    overflow: hidden;
+    			    line-height: 30px;
+    			    vertical-align: middle;
+    			}
+    		
+    		</style>
+    		
+    		
+    		<div class="row float-left">	
+    			<!-- <div class="" style="float: left;">
+    				<div class="mpanel rounded-corners">
+    					<div class="mheader">
+    						<i class="fa fa-file"></i> Create New Package
+    					</div>
+    					<div class="mbody">
+    						<input class="rounded-corners tiny" data-bind="value:createPackageName" type="text" style="width: 240px; height:1.73rem; margin-right:2px;float: left;" /> 
+    						<button class="button tiny btn-green" data-bind="click:createNewPackage">
+    							<i class="fa fa-file"></i> 
+    							Create
+    						</button>
+    					</div>
+    				</div>
+    			</div>	 -->
+    			<div class="mpanel rounded-corners">
+    				<div class="mheader">
+    					<i class="fa fa-check"></i> Checked Packages
+    				</div>
+    				<div class="mbody">
+    					<ul class="button-group tiny" style="margin-left: 0;">
+    						<li style="float: left;margin-right: 2px;"><a href="#" class="button" data-bind="click:copyPackageDialog"><i class="fa fa-files-o fa-lg"></i> Copy</a></li>
+    						<li style="float: left;margin-right: 2px;"><a href="#" class="button" data-bind="click:renamePackageDialog"><i class="fa fa-pencil fa-lg"></i> Rename</a></li>
+    						<li style="float: left;margin-right: 2px;"><a href="#" class="button" data-bind="click:showRegionOptions"><i class="fa fa-share-alt fa-lg"></i> Share</a></li>
+    						<li style="float: left;margin-right: 2px;"><a href="#" class="button" data-bind="click:sendToMyShowseeker"><i class="fa fa-share-square-o fa-lg"></i> Send to my ShowSeeker</a></li>
+    						<li style="float: left;margin-right: 2px;"><a href="#" class="button alert" data-bind="click:showDialogPackageDelete"><i class="fa fa-trash fa-lg"></i></a></li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<div style="clear:both;"></div>
+    		<br style="clear:both;"/>
+    		
+    		<div class="proposalmanagerwrapper rounded-corners">
+    			<div class="headers proposalmanager">
+    				<i class="fa fa-th-list"></i> 		
+    				<span id="label-user-name">Packages</span>
+    			</div>	
+    			<div class="gridwrapper">
+    				<div id="packageManagerGrid" style="width:100%;height:500px;"></div>
+    			</div>
+    		</div>
+    		
+    		<div class="reveal" id="modalRegions" data-reveal >
+    		    <h4>Share Package</h4>
+    		    <div class="row">
+    		        <div class="large-12 text-center">
+    		            <p style="font-size: 15px;">Select users to share the package with and click Share Package.</p>
+    		        </div>
+    		    </div>
+    		    <div class="row">
+    		        <div class="tiny  button-group">
+    		            <button class="button" data-bind="click: shareGridType.bind($data, 'markets'), css: { 'plus-btn': shareGridType() != 'markets'}">Markets</button>
+    		            <button class="button" data-bind="click: shareGridType.bind($data, 'offices'), css: { 'plus-btn': shareGridType() != 'offices'}">Offices</button>
+    		            <button class="button" data-bind="click: shareGridType.bind($data, 'users'), css: { 'plus-btn': shareGridType() != 'users'}">Users</button>
+    		        </div>
+    		    </div>
+    		    <div class="row">
+    		        <div class="tiny  button-group">
+    		            <button class="button" data-bind="disable:shareGridType() != 'users', click: shareGridUsersFilterType.bind($data, 'corporation'), css: { 'plus-btn': shareGridUsersFilterType() != 'corporation'}">Everyone</button>
+    		            <button class="button" data-bind="disable:shareGridType() != 'users', click: shareGridUsersFilterType.bind($data, 'office'), css: { 'plus-btn': shareGridUsersFilterType() != 'office'}">Filter by Office</button>
+    		            <button class="button" data-bind="disable:shareGridType() != 'users', click: shareGridUsersFilterType.bind($data, 'market'), css: { 'plus-btn': shareGridUsersFilterType() != 'market'}">Filter by Region</button>
+    		        </div>
+    		    </div>
+    		    <div class="row" data-bind="visible:shareGridType()=='users'">
+    		        <div class="large-12">
+    		            <div class="row collapse">
+    		                <div class="large-3 columns">
+    		                    <select class="tiny" data-bind="options: customShareGroups,
+    		                                                    optionsText: 'name',
+    		                                                    optionsCaption:'Select Group',
+    		                                                    value: selShareCustomGroup"></select>
+    		                </div>
+    		                <div class="large-4 columns" data-bind="visible:selShareCustomGroup() == undefined">
+    		                    <input type="text" data-bind="value:newCustomShareGrpName" id="share-new-customgroup" placeholder="Group Name" style="margin-left: 5px;">
+    		                </div>
+    		                <div class="large-5 columns" data-bind="visible:selShareCustomGroup() == undefined">
+    		                    <button class="tiny button plus-btn-green" data-bind="click:saveNewShareCustomGroup, disable:selShareGridUsers().length == 0" style="margin-left: 10px;"><i class="fa fa-users fa-lg"></i> Create New Group</button>
+    		                </div>
+    		                <div class="large-9 columns" data-bind="visible:selShareCustomGroup() != undefined">
+    		                    <button class="tiny button plus-btn-green" data-bind="click:editShareCustomGroup" style="margin-left: 10px;"><i class="fa fa-file fa-lg"></i> Save Changes</button>
+    		                    <button class="tiny button plus-btn-red" data-bind="click:deleteShareCustomGroup"><i class="fa fa-trash fa-lg"></i> Delete</button>
+    		                    <button class="tiny button plus-btn-red2"  data-bind="click:selShareCustomGroup.bind($data, undefined)"><i class="fa fa-refresh fa-lg"></i> Reset</button>
+    		                </div>
+    		            </div>
+    		        </div>
+    		    </div>
+    		    <div class="gridwrapper">        
+    		        <div id="userGrid" data-bind="visible:shareGridType()=='users'" style="width:100%;height:150px;"></div>
+    		        <div id="officeGrid" data-bind="visible:shareGridType()=='offices'" style="width:100%;height:150px;"></div>
+    		        <div id="regionGrid" data-bind="visible:shareGridType()=='markets'" style="width:100%;height:150px;"></div>
+    		    </div>
+    		    <br/>
+    		
+    		    <div class="large-12">
+    		        <div class="row">
+    		            <div class="large-12">
+    		                <div class="row collapse">
+    		                    <div class="large-12 columns">
+    		                        <i class="fa fa-pencil"></i> Comment
+    		                        <textarea id="share-message" style="height:50px;width:665px;" data-bind="value:shareMessage"></textarea>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </div>
+    		    </div>
+    		    <div class="large-12">
+    		        <div class="row">
+    		            <div class="large-12">
+    		                <div class="row collapse">
+    		                    <div class="large-6 columns">
+    		                        <button type="button" class="tiny button right plus-btn-green" data-bind="click:updatePackageShare"><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share Package</button>
+    		                    </div>
+    		                    <div class="large-6 columns">
+    		                        <span class="left">&nbsp; </span>
+    		                        <button type="button" class="tiny button left plus-btn-red" data-close aria-label="Close modal"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Cancel</button>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </div>
+    		    </div>
+    		
+    		    
+    		
+    		
+    		    <!-- <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button> -->
+    		</div>
+    		<div class="reveal" id="modalAlertSelectPackage" data-reveal>
+    		    <h4>ShowSeeker - Package Builder</h4>
+    		    <div class="large-12">
+    		        <div class="row">
+    		        	Please select a package.
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <div class="large-12 text-center">
+    		                <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Close</button>
+    		            </div>
+    		        </div>
+    		
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<div class="reveal" id="modalRenamePackage" data-reveal>
+    		    <h4>Rename Package</h4>
+    		    <div class="large-12">
+    		        <form data-abide>
+    		            <div class="row">
+    		                <div class="large-12 text-center">
+    		                    Type in your new package name and click Save Changes.
+    		                </div>
+    		            </div>
+    		            <div class="row">
+    		                <div class="large-12">
+    		                    <div class="row collapse">
+    		                        <div class="large-3 columns"> &nbsp; </div>
+    		                        <div class="large-6 columns text-center">
+    		                            <input type="text" class="rounded-corners tiny" id="inpt-rename-package" data-bind="value:renamePackageName" required>
+    		                        </div>
+    		                        <div class="large-3 columns"> &nbsp; </div>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		            <div class="row">
+    		                <div class="large-12">
+    		                    <div class="row collapse">
+    		                        <div class="large-6 columns">
+    		                            <button type="button" class="tiny button right plus-btn-green" data-bind="click:renamePackage"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Save Changes</button>
+    		                        </div>
+    		                        <div class="large-6 columns">
+    		                            <span class="left">&nbsp; </span>
+    		                            <button type="button" class="tiny button left plus-btn-red" data-close aria-label="Close modal"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Cancel</button>
+    		                        </div>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </form>
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<div class="reveal" id="modalCopyPackage" data-reveal>
+    		    <h4>Copy Package</h4>
+    		    <div class="large-12">
+    		        <form data-abide>
+    		            <div class="row">
+    		                <div class="large-12 text-center">
+    		                    Type in your new package name and click Save Changes.
+    		                </div>
+    		            </div>
+    		            <div class="row">
+    		                <div class="large-12">
+    		                    <div class="row collapse">
+    		                        <div class="large-3 columns"> &nbsp; </div>
+    		                        <div class="large-6 columns text-center">
+    		                            <input type="text" class="rounded-corners tiny" id="inpt-copy-package" data-bind="value:copyPackageName" required>
+    		                        </div>
+    		                        <div class="large-3 columns"> &nbsp; </div>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		            <div class="row">
+    		                <div class="large-12">
+    		                    <div class="row collapse">
+    		                        <div class="large-6 columns">
+    		                            <button type="button" class="tiny button right plus-btn-green" data-bind="click:copyPackage"><i class="fa fa-files-o fa-lg" aria-hidden="true"></i> Copy Package</button>
+    		                        </div>
+    		                        <div class="large-6 columns">
+    		                            <span class="left">&nbsp; </span>
+    		                            <button type="button" class="tiny button left plus-btn-red" data-close aria-label="Close modal"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Cancel</button>
+    		                        </div>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </form>
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<div class="reveal" id="modalConfirmDelPkg" data-reveal>
+    		    <h4>Delete Package</h4>
+    		    <div class="large-12">
+    		        <div class="row">
+    		        	Are you sure you want to delete the selected package(s)?<br/>
+    		            This will also remove the package from the Custom Package window in ShowSeeker.
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <div class="large-12">
+    		                <div class="row collapse">
+    		                    <div class="large-6 columns">
+    		                        <button type="button" class="tiny button right" data-bind="click:deletePackage"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Yes</button>
+    		                    </div>
+    		                    <div class="large-6 columns">
+    		                        <span class="left">&nbsp; </span>
+    		                        <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Close</button>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </div>
+    		
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<div class="reveal" id="modalSuccessSendToMySS" data-reveal>
+    		    <h4>ShowSeeker - Package Builder</h4>
+    		    <div class="large-12">
+    		        <div class="row">
+    		        	Package sent to your ShowSeeker. Click on Go To ShowSeeker to view package in ShowSeeker.
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <div class="large-12 text-center">
+    		                <!-- <a class="tiny button" href="http://cloud1.showseeker.com/goplus-mn2/" target="winShowSeekerPlus"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Go To ShowSeeker </a> -->
+    		                <a class="tiny button" href="http://plus.showseeker.com/goplus/" target="winShowSeekerPlus"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Go To ShowSeeker </a>
+    		                &nbsp;
+    		                <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Close</button>
+    		            </div>
+    		        </div>
+    		
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<div class="reveal" id="modalSuccessShare" data-reveal>
+    		    <h4>ShowSeeker - Package Builder</h4>
+    		    <div class="large-12">
+    		        <div class="row">
+    		        	Package has been shared. Click on Go To ShowSeeker to view package in ShowSeeker.
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <div class="large-12 text-center">
+    		                <!-- <a class="tiny button" href="http://cloud1.showseeker.com/goplus-mn2/" target="winShowSeekerPlus"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Go To ShowSeeker </a> -->
+    		                <a class="tiny button" href="http://plus.showseeker.com/goplus/" target="winShowSeekerPlus"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Go To ShowSeeker </a>
+    		                &nbsp;
+    		                <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-times-circle fa-lg" aria-hidden="true"></i> Close</button>
+    		            </div>
+    		        </div>
+    		
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    	</div>
+    	<div data-bind="visible: menu() == 1" style="display: none;">
+    		<div class="proposalmanagerwrapper rounded-corners">
+    			<div class="headers proposalmanager">
+    				<i class="fa fa-th-list"></i> 		
+    				<span data-bind="text:loadedPackageName"></span>
+    				<span data-bind="visible:loadedPackageCount()>0 && loadedPackageName() != ''"> - </span>
+    				<span data-bind="visible:loadedPackageCount()>0,text:loadedPackageCount"></span>
+    				<span data-bind="visible:loadedPackageCount()>1">Items</span>
+    				<span data-bind="visible:loadedPackageCount()==1">Item</span>
+    				<div class="float-right" >
+    					<button class="button tiny" title="Remove past date entries" data-open="modalConfirmRemoveoldFromPackage"><i class="fa fa-calendar-times-o fa-lg"></i></button>
+    					<button class="button tiny alert" title="Delete Package Lines" data-open="modalConfirmDelItem"><i class="fa fa-trash fa-lg"></i></button>
+    				</div>
+    			</div>	
+    			<div class="gridwrapper">
+    				<div id="packageGrid" style="width:100%;height:500px;"></div>
+    			</div>
+    		</div>
+    		<div class="reveal" id="modalConfirmRemoveoldFromPackage" data-reveal>
+    		    <h4>Remove Past Dates</h4>
+    		    <div class="large-12">
+    		        <div class="row">
+    		        	This will remove all the passed events. Are you sure you want to continue?
+    		        </div>
+    		        <br/>
+    		        <div class="row">
+    		            <div class="large-12">
+    		                <div class="row collapse">
+    		                    <div class="large-6 columns">
+    		                        <button type="button" class="tiny button right" data-bind="click:removeOldEntriesFromPackage"><i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> Remove Past Dates</button>
+    		                    </div>
+    		                    <div class="large-6 columns">
+    		                        <span class="left">&nbsp; </span>
+    		                        <button type="button" class="tiny button left plus-btn-red2" data-close aria-label="Close modal"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i> Close</button>
+    		                    </div>
+    		                </div>
+    		            </div>
+    		        </div>
+    		
+    		    </div>
+    		    <button class="close-button" data-close aria-label="Close modal" type="button">
+    		        <span aria-hidden="true">&times;</span>
+    		    </button>
+    		</div>
+    		<!-- style="position: absolute; right: 10px; display: inline;" -->
+    	</div>
+    
+        <div data-bind="visible: menu() == 3"></div>
+        <div data-bind="visible: menu() == 4"></div>
+    </section>
+    
+    <div class="reveal" id="modalHelp" data-reveal>
+        <h4>Help &amp; Tutorials</h4>
+        <div class="large-12">
+            <div class="row">
+            	User Guide will be available soon. 
+            </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    
+    <div id="loading-overlay"></div>
+    <div id="loading-spinner">
+    	<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+    	<span class="sr-only">Loading...</span>
+    </div>
+    <script src="https://use.fontawesome.com/2b53e70d0e.js"></script>
+    <script src="assets/js/app.js?v=01252018"></script>
+  </body>
+</html>
+

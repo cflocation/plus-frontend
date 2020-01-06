@@ -1,0 +1,113 @@
+.multiselect {
+	background: #d7ebf9;
+    width:11em;
+    height:auto;
+    border:solid 1px #184a74;
+    overflow:auto;
+    padding: 6px;
+    position: absolute;
+    z-index: 100 !important;
+}
+ 
+.multiselect label {
+    display:block;
+    border-bottom: solid 1px #eee;
+    padding: 4px;
+	font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";
+	font-size: 8pt;
+}
+ 
+.multiselect-on {
+    color:#ffffff;
+    background-color:#32639b;
+    border: solid 1px #3679aa;
+}
+
+
+.multiselect-header-on {
+    color:#ffffff;
+    background-color:#4C1A4C;
+    border: solid 1px #3679aa;
+}
+
+
+.multiselect-header-off {
+    color:#ffffff;
+    background-color:#48a9cc;
+    border: solid 1px #ccc;
+}
+
+.toggleAll{
+    color:#333;
+    background-color:#93D0A7;
+    border: solid 1px #eee;
+}
+
+.multiselect-off {
+
+}
+
+
+
+.baddates{
+	background-color: red !important;
+	color: white;
+	/*background-color:#FF9 !important;
+	border: solid 1px red !important;*/
+}
+
+.highlight{
+	background-color: #FF9 !important;		
+	color: #444 !important;
+}
+
+
+.highlightCalendar{
+	background-color: red !important;		
+	color: #fff !important;
+}
+
+/* Panels */
+.mpanel{
+	background-color: #f1f1f1;
+	margin-right: 10px;
+	border: 1px solid #3D003D;
+	white-space: nowrap;
+}
+
+/*.mpanel .mheader{
+	background-color: #4C1A4C;
+	padding: 8px;
+	font-weight: bold;
+	color: white;
+	font-family: Arial;
+	font-size: 12px;
+}*/
+
+.mpanel .mheader{
+	background-color: #702e71;
+	padding: 8px;
+	font-weight: bold;
+	color: white;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
+.mbody{
+	padding: 8px !important;
+}
+
+.noXButton::-ms-clear {
+  width : 0;
+  height: 0;
+}
+
+.toggleAll{
+	background-color: #ddd !important;
+	
+}
+
+#keyword-srch-lbl span{
+	margin-left: -3px !important;
+}

@@ -1,0 +1,1 @@
+//////////////////////////////////////////////////	//	 GETS USER PROPOSALS AND POPULATES THE LIST	////////////////////////////////////////////////////function userproposals(userid, proposalid){		setTimeout(function() {$('#proposalList').val(proposalid);},500);		return false;}	

@@ -1,0 +1,4534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AAAA-Message xmlns="http://www.AAAA.org/schemas/spotTVCableProposal"
+  xmlns:tvb="http://www.AAAA.org/schemas/spotTV"
+  xmlns:tvb-tp="http://www.AAAA.org/schemas/TVBGeneralTypes"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.AAAA.org/schemas/spotTVCableProposal spotTVCableProposal-0.3.0.5A.xsd">
+  <AAAA-Values>
+	<SchemaName>SpotTVCableProposal</SchemaName>
+	<SchemaVersion>0.3.0.5A</SchemaVersion>
+	<Media>SpotCable</Media>
+	<BusinessObject>Proposal</BusinessObject>
+	<Action>New</Action>
+	<UniqueMessageID>EDB00981-DC90-3C3D-EE3E2AA36C2C19EA</UniqueMessageID>
+</AAAA-Values>
+<Proposal uniqueIdentifier="MM-72858-2011" version="5" sendDateTime="2011-02-03T15:41:33" weekStartDay="Mo" startDate="2011-03-28" endDate="2011-06-26">
+<Seller companyName="Zolo Media">
+<OfficeName>Bend Oregon</OfficeName>
+<Salesperson name="Janelle Serice">
+<Phone type="voice" location="work">(541)388-5825</Phone>
+<Email type="primary">jserice@zolomedia.com</Email>
+</Salesperson>
+</Seller>
+<Buyer buyingCompanyName="Les Schwab">
+ <OfficeName></OfficeName>
+ <BuyerName></BuyerName>
+</Buyer>
+<Advertiser name="Advertiser">
+	<Product name="1QFull"/>
+</Advertiser>
+<Name>Les Schwab</Name>
+<SellerReference>79</SellerReference>
+
+<Outlets>
+<CableStation syscode="9999" network="DSCP" outletId="OUT1"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT2"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT3"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT4"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT5"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT6"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT7"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT8"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT9"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT10"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT11"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT12"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT13"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT14"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT15"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT16"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT17"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT18"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT19"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT20"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT21"/>
+<CableStation syscode="9999" network="ESPN" outletId="OUT22"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT23"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT24"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT25"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT26"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT27"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT28"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT29"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT30"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT31"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT32"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT33"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT34"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT35"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT36"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT37"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT38"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT39"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT40"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT41"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT42"/>
+<CableStation syscode="9999" network="HGTVP" outletId="OUT43"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT44"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT45"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT46"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT47"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT48"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT49"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT50"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT51"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT52"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT53"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT54"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT55"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT56"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT57"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT58"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT59"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT60"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT61"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT62"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT63"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT64"/>
+<CableStation syscode="9999" network="TBSP" outletId="OUT65"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT66"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT67"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT68"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT69"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT70"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT71"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT72"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT73"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT74"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT75"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT76"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT77"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT78"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT79"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT80"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT81"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT82"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT83"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT84"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT85"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT86"/>
+<CableStation syscode="9999" network="TLCP" outletId="OUT87"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT88"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT89"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT90"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT91"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT92"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT93"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT94"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT95"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT96"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT97"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT98"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT99"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT100"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT101"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT102"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT103"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT104"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT105"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT106"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT107"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT108"/>
+<CableStation syscode="9999" network="TNTP" outletId="OUT109"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT110"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT111"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT112"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT113"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT114"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT115"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT116"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT117"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT118"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT119"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT120"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT121"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT122"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT123"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT124"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT125"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT126"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT127"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT128"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT129"/>
+<CableStation syscode="9999" network="USAP" outletId="OUT130"/>
+</Outlets>
+<AvailList identifier="AL001" startDate="2011-03-28" endDate="2011-06-26" isPackage="N">
+<Name>Cable Schedule</Name>
+<OutletReferences>
+<OutletReference outletFromProposalRef="OUT1" outletForListId="OUL1"/><OutletReference outletFromProposalRef="OUT2" outletForListId="OUL2"/><OutletReference outletFromProposalRef="OUT3" outletForListId="OUL3"/><OutletReference outletFromProposalRef="OUT4" outletForListId="OUL4"/><OutletReference outletFromProposalRef="OUT5" outletForListId="OUL5"/><OutletReference outletFromProposalRef="OUT6" outletForListId="OUL6"/><OutletReference outletFromProposalRef="OUT7" outletForListId="OUL7"/><OutletReference outletFromProposalRef="OUT8" outletForListId="OUL8"/><OutletReference outletFromProposalRef="OUT9" outletForListId="OUL9"/><OutletReference outletFromProposalRef="OUT10" outletForListId="OUL10"/><OutletReference outletFromProposalRef="OUT11" outletForListId="OUL11"/><OutletReference outletFromProposalRef="OUT12" outletForListId="OUL12"/><OutletReference outletFromProposalRef="OUT13" outletForListId="OUL13"/><OutletReference outletFromProposalRef="OUT14" outletForListId="OUL14"/><OutletReference outletFromProposalRef="OUT15" outletForListId="OUL15"/><OutletReference outletFromProposalRef="OUT16" outletForListId="OUL16"/><OutletReference outletFromProposalRef="OUT17" outletForListId="OUL17"/><OutletReference outletFromProposalRef="OUT18" outletForListId="OUL18"/><OutletReference outletFromProposalRef="OUT19" outletForListId="OUL19"/><OutletReference outletFromProposalRef="OUT20" outletForListId="OUL20"/><OutletReference outletFromProposalRef="OUT21" outletForListId="OUL21"/><OutletReference outletFromProposalRef="OUT22" outletForListId="OUL22"/><OutletReference outletFromProposalRef="OUT23" outletForListId="OUL23"/><OutletReference outletFromProposalRef="OUT24" outletForListId="OUL24"/><OutletReference outletFromProposalRef="OUT25" outletForListId="OUL25"/><OutletReference outletFromProposalRef="OUT26" outletForListId="OUL26"/><OutletReference outletFromProposalRef="OUT27" outletForListId="OUL27"/><OutletReference outletFromProposalRef="OUT28" outletForListId="OUL28"/><OutletReference outletFromProposalRef="OUT29" outletForListId="OUL29"/><OutletReference outletFromProposalRef="OUT30" outletForListId="OUL30"/><OutletReference outletFromProposalRef="OUT31" outletForListId="OUL31"/><OutletReference outletFromProposalRef="OUT32" outletForListId="OUL32"/><OutletReference outletFromProposalRef="OUT33" outletForListId="OUL33"/><OutletReference outletFromProposalRef="OUT34" outletForListId="OUL34"/><OutletReference outletFromProposalRef="OUT35" outletForListId="OUL35"/><OutletReference outletFromProposalRef="OUT36" outletForListId="OUL36"/><OutletReference outletFromProposalRef="OUT37" outletForListId="OUL37"/><OutletReference outletFromProposalRef="OUT38" outletForListId="OUL38"/><OutletReference outletFromProposalRef="OUT39" outletForListId="OUL39"/><OutletReference outletFromProposalRef="OUT40" outletForListId="OUL40"/><OutletReference outletFromProposalRef="OUT41" outletForListId="OUL41"/><OutletReference outletFromProposalRef="OUT42" outletForListId="OUL42"/><OutletReference outletFromProposalRef="OUT43" outletForListId="OUL43"/><OutletReference outletFromProposalRef="OUT44" outletForListId="OUL44"/><OutletReference outletFromProposalRef="OUT45" outletForListId="OUL45"/><OutletReference outletFromProposalRef="OUT46" outletForListId="OUL46"/><OutletReference outletFromProposalRef="OUT47" outletForListId="OUL47"/><OutletReference outletFromProposalRef="OUT48" outletForListId="OUL48"/><OutletReference outletFromProposalRef="OUT49" outletForListId="OUL49"/><OutletReference outletFromProposalRef="OUT50" outletForListId="OUL50"/><OutletReference outletFromProposalRef="OUT51" outletForListId="OUL51"/><OutletReference outletFromProposalRef="OUT52" outletForListId="OUL52"/><OutletReference outletFromProposalRef="OUT53" outletForListId="OUL53"/><OutletReference outletFromProposalRef="OUT54" outletForListId="OUL54"/><OutletReference outletFromProposalRef="OUT55" outletForListId="OUL55"/><OutletReference outletFromProposalRef="OUT56" outletForListId="OUL56"/><OutletReference outletFromProposalRef="OUT57" outletForListId="OUL57"/><OutletReference outletFromProposalRef="OUT58" outletForListId="OUL58"/><OutletReference outletFromProposalRef="OUT59" outletForListId="OUL59"/><OutletReference outletFromProposalRef="OUT60" outletForListId="OUL60"/><OutletReference outletFromProposalRef="OUT61" outletForListId="OUL61"/><OutletReference outletFromProposalRef="OUT62" outletForListId="OUL62"/><OutletReference outletFromProposalRef="OUT63" outletForListId="OUL63"/><OutletReference outletFromProposalRef="OUT64" outletForListId="OUL64"/><OutletReference outletFromProposalRef="OUT65" outletForListId="OUL65"/><OutletReference outletFromProposalRef="OUT66" outletForListId="OUL66"/><OutletReference outletFromProposalRef="OUT67" outletForListId="OUL67"/><OutletReference outletFromProposalRef="OUT68" outletForListId="OUL68"/><OutletReference outletFromProposalRef="OUT69" outletForListId="OUL69"/><OutletReference outletFromProposalRef="OUT70" outletForListId="OUL70"/><OutletReference outletFromProposalRef="OUT71" outletForListId="OUL71"/><OutletReference outletFromProposalRef="OUT72" outletForListId="OUL72"/><OutletReference outletFromProposalRef="OUT73" outletForListId="OUL73"/><OutletReference outletFromProposalRef="OUT74" outletForListId="OUL74"/><OutletReference outletFromProposalRef="OUT75" outletForListId="OUL75"/><OutletReference outletFromProposalRef="OUT76" outletForListId="OUL76"/><OutletReference outletFromProposalRef="OUT77" outletForListId="OUL77"/><OutletReference outletFromProposalRef="OUT78" outletForListId="OUL78"/><OutletReference outletFromProposalRef="OUT79" outletForListId="OUL79"/><OutletReference outletFromProposalRef="OUT80" outletForListId="OUL80"/><OutletReference outletFromProposalRef="OUT81" outletForListId="OUL81"/><OutletReference outletFromProposalRef="OUT82" outletForListId="OUL82"/><OutletReference outletFromProposalRef="OUT83" outletForListId="OUL83"/><OutletReference outletFromProposalRef="OUT84" outletForListId="OUL84"/><OutletReference outletFromProposalRef="OUT85" outletForListId="OUL85"/><OutletReference outletFromProposalRef="OUT86" outletForListId="OUL86"/><OutletReference outletFromProposalRef="OUT87" outletForListId="OUL87"/><OutletReference outletFromProposalRef="OUT88" outletForListId="OUL88"/><OutletReference outletFromProposalRef="OUT89" outletForListId="OUL89"/><OutletReference outletFromProposalRef="OUT90" outletForListId="OUL90"/><OutletReference outletFromProposalRef="OUT91" outletForListId="OUL91"/><OutletReference outletFromProposalRef="OUT92" outletForListId="OUL92"/><OutletReference outletFromProposalRef="OUT93" outletForListId="OUL93"/><OutletReference outletFromProposalRef="OUT94" outletForListId="OUL94"/><OutletReference outletFromProposalRef="OUT95" outletForListId="OUL95"/><OutletReference outletFromProposalRef="OUT96" outletForListId="OUL96"/><OutletReference outletFromProposalRef="OUT97" outletForListId="OUL97"/><OutletReference outletFromProposalRef="OUT98" outletForListId="OUL98"/><OutletReference outletFromProposalRef="OUT99" outletForListId="OUL99"/><OutletReference outletFromProposalRef="OUT100" outletForListId="OUL100"/><OutletReference outletFromProposalRef="OUT101" outletForListId="OUL101"/><OutletReference outletFromProposalRef="OUT102" outletForListId="OUL102"/><OutletReference outletFromProposalRef="OUT103" outletForListId="OUL103"/><OutletReference outletFromProposalRef="OUT104" outletForListId="OUL104"/><OutletReference outletFromProposalRef="OUT105" outletForListId="OUL105"/><OutletReference outletFromProposalRef="OUT106" outletForListId="OUL106"/><OutletReference outletFromProposalRef="OUT107" outletForListId="OUL107"/><OutletReference outletFromProposalRef="OUT108" outletForListId="OUL108"/><OutletReference outletFromProposalRef="OUT109" outletForListId="OUL109"/><OutletReference outletFromProposalRef="OUT110" outletForListId="OUL110"/><OutletReference outletFromProposalRef="OUT111" outletForListId="OUL111"/><OutletReference outletFromProposalRef="OUT112" outletForListId="OUL112"/><OutletReference outletFromProposalRef="OUT113" outletForListId="OUL113"/><OutletReference outletFromProposalRef="OUT114" outletForListId="OUL114"/><OutletReference outletFromProposalRef="OUT115" outletForListId="OUL115"/><OutletReference outletFromProposalRef="OUT116" outletForListId="OUL116"/><OutletReference outletFromProposalRef="OUT117" outletForListId="OUL117"/><OutletReference outletFromProposalRef="OUT118" outletForListId="OUL118"/><OutletReference outletFromProposalRef="OUT119" outletForListId="OUL119"/><OutletReference outletFromProposalRef="OUT120" outletForListId="OUL120"/><OutletReference outletFromProposalRef="OUT121" outletForListId="OUL121"/><OutletReference outletFromProposalRef="OUT122" outletForListId="OUL122"/><OutletReference outletFromProposalRef="OUT123" outletForListId="OUL123"/><OutletReference outletFromProposalRef="OUT124" outletForListId="OUL124"/><OutletReference outletFromProposalRef="OUT125" outletForListId="OUL125"/><OutletReference outletFromProposalRef="OUT126" outletForListId="OUL126"/><OutletReference outletFromProposalRef="OUT127" outletForListId="OUL127"/><OutletReference outletFromProposalRef="OUT128" outletForListId="OUL128"/><OutletReference outletFromProposalRef="OUT129" outletForListId="OUL129"/><OutletReference outletFromProposalRef="OUT130" outletForListId="OUL130"/>
+</OutletReferences>
+
+<DemoCategories>
+<DemoCategory DemoId="DM0">
+ <tvb:DemoType>Rating</tvb:DemoType>
+ <tvb:Group>Adults</tvb:Group>
+ <tvb:AgeFrom>25</tvb:AgeFrom>
+ <tvb:AgeTo>54</tvb:AgeTo>
+</DemoCategory>
+</DemoCategories>
+
+<TargetDemo demoRef="DM0"/>
+<Comment>
+	<tvb-tp:CommentLine>Showseeker Proposal XML Schedule.</tvb-tp:CommentLine>
+</Comment>
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[American Chopper/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Cash Cab/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Dirty Jobs]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[American Chopper/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Auction Kings]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Cash Cab]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Dirty Jobs/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Pitchmen/Dirty Jobs]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Man vs. Wild]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-03-28" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Man vs. Wild]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Out of the Wild: The Alaska Experiment]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Kidnap and Rescue]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[American Loggers]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Dirty Jobs]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Get Out Alive]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Get Out Alive]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Dirty Jobs]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Dirty Jobs]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[Dirty Jobs]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[American Loggers]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL1"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>DSCP</DaypartName>
+<AvailName><![CDATA[American Loggers]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>23.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[College Basketball Final/College GameDay Scoreboard]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[College Basketball/SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[MLS Soccer/SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[NBA Basketball/SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[NBA Basketball/SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[NBA Basketball/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[NBA Basketball/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[NBA Basketball/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[SportsCenter/College Basketball]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL2"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>ESPN</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>20.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Selling New York]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[My First Place]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Property Virgins]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Real Estate Intervention/Selling New York]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[My First Place]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Property Virgins]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[House Hunters International]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Property Virgins]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[House Hunters]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[House Hunters/House Hunters International]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[House Hunters/House Hunters International]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Holmes Inspection/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[House Hunters International]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Candice Tells All/Color Splash]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Disaster DIY]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Holmes on Homes]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[House Hunters/House Hunters International]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[House Hunters/House Hunters International]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Cash & Cari/House Hunters International]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL23"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>HGTVP</DaypartName>
+<AvailName><![CDATA[Curb Appeal: The Block/Dear Genevieve]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[College Basketball/Men in Black]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Are We There Yet?]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Family Guy]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Hitch/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[College Basketball/Hitch]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Family Guy]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Family Guy/College Basketball]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Family Guy/Tyler Perry's Meet the Browns]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[College Basketball/The School of Rock]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Family Guy]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[The Office]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[The Office]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[The Office]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[Tyler Perry's House of Payne/Tyler Perry's Meet the Browns]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL44"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TBSP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>12.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced/48 Hours: Hard Evidence]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[What Not to Wear]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[What Not to Wear]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[The Little Couple]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[The Opener]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[19 Kids and Counting]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[Extreme Kid Parties]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[Cake Boss]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[Cake Boss: Next Great Baker/To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[19 Kids and Counting]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[48 Hours: Hard Evidence]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL66"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TLCP</DaypartName>
+<AvailName><![CDATA[48 Hours: Hard Evidence/To Be Announced]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>18.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Journey to the Center of the Earth/Kill Bill: Vol. 1]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[College Basketball/I Am Legend]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Bones]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Bones]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[I Am Legend/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Bones]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Bones]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Bones]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Journey to the Center of the Earth/Kill Bill: Vol. 1]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Jurassic Park/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Jurassic Park/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Law & Order/Walking Tall]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[Journey to the Center of the Earth/Kill Bill: Vol. 1]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[NBA Basketball/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[The Closer]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL88"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>TNTP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>22.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[WWE Monday Night RAW]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[WWE Monday Night RAW]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[NCIS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit/Indiana Jones and the Last Crusade]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>Y</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[NCIS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>Y</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[NCIS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[NCIS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[NCIS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>Y</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[NCIS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>20:00</StartTime>
+        <EndTime>21:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit/VARIOUS]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>21:00</StartTime>
+        <EndTime>22:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[CSI: Crime Scene Investigation]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>Y</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>Y</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Law & Order: Special Victims Unit/White Collar]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>Y</tvb-tp:Thursday>
+          	<tvb-tp:Friday>N</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[Fairly Legal/Royal Pains]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+
+
+<AvailLineWithDetailedPeriods>
+<OutletReference outletFromListRef="OUL110"/>
+<DayTimes>
+	<DayTime>
+    	<StartTime>22:00</StartTime>
+        <EndTime>23:00</EndTime>
+        <Days>
+          	<tvb-tp:Monday>N</tvb-tp:Monday>
+          	<tvb-tp:Tuesday>N</tvb-tp:Tuesday>
+          	<tvb-tp:Wednesday>N</tvb-tp:Wednesday>
+          	<tvb-tp:Thursday>N</tvb-tp:Thursday>
+          	<tvb-tp:Friday>Y</tvb-tp:Friday>
+          	<tvb-tp:Saturday>N</tvb-tp:Saturday>
+        	<tvb-tp:Sunday>N</tvb-tp:Sunday>
+		</Days>
+	</DayTime>
+</DayTimes>
+<DaypartName>USAP</DaypartName>
+<AvailName><![CDATA[CSI: Crime Scene Investigation]]></AvailName>
+<SpotLength>00:00:30</SpotLength>
+<Periods>
+<DetailedPeriod startDate="2011-04-25" endDate="2011-06-26">
+<Rate>25.00</Rate>
+<SpotsPerWeek>1</SpotsPerWeek>
+</DetailedPeriod>
+</Periods>
+</AvailLineWithDetailedPeriods>
+</AvailList>	
+	</Proposal>
+</AAAA-Message>

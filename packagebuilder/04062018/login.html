@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="http://plus.showseeker.com/images/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <!-- tells browser not to cache -->
+    <meta http-equiv="expires" content="0">
+    <!-- says that the cache expires 'now' -->
+    <meta http-equiv="pragma" content="no-cache">
+    <!-- says not to use cached stuff, if there is any -->
+    <link rel="stylesheet" href="http://plus.showseeker.com/inc/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://plus.showseeker.com/inc/foundation/css/normalize.css">
+    <link rel="stylesheet" href="http://plus.showseeker.com/inc/foundation/css/foundation.css">
+    <link rel="stylesheet" href="http://plus.showseeker.com/inc/timepicker/jquery.timepicker.css">
+    <link rel="stylesheet" href="http://plus.showseeker.com/css/drk-theme/jquery-ui-1.10.4.custom.min.css">
+    <link rel="stylesheet" href="http://plus.showseeker.com/css/global.css">
+    <title>ShowSeeker Projected Calendar Entry Tool - Login</title>
+</head>
+
+<body>
+    <br/>
+    <br/>
+    <form id="frm-login" action="" method="post">
+        <div class="large-4 small-centered columns">
+            <div class="panel radius">
+                <center><img src="http://plus.showseeker.com/images/logo200.png"></center>
+                <br/>
+                <br/>
+                <div id="login-error" style="display:none;">
+                    <div class="row">
+                        <div class="small-12">
+                            <div class="row">
+                                <div class="small-4 columns">
+                                    <label for="ratecard-market" class="right inline"></label>
+                                </div>
+                                <div class="row collapse">
+                                    <div class="small-7 columns" style="background: #fad0d0;  border: 1px solid #f6abab; padding: 10px 10px 7px 19px;">Invalid username or password</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                </div>
+                <div class="row">
+                    <div class="small-12">
+                        <div class="row">
+                            <div class="small-4 columns">
+                                <label for="email" class="right inline">
+                                    Email Address:
+                                </label>
+                            </div>
+                            <div class="row collapse">
+                                <div class="small-7 columns">
+                                    <input required type="text" name="email" id="email">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12">
+                        <div class="row">
+                            <div class="small-4 columns">
+                                <label for="password" class="right inline">
+                                    Password:
+                                </label>
+                            </div>
+                            <div class="row collapse">
+                                <div class="small-7 columns">
+                                    <input type="password" name="password" id="password">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12">
+                        <div class="row">
+                            <div class="small-4 columns text-left">
+                                <label class="right inline"><a href="http://plus.showseeker.com/goplusbeta/reset/">Forgot Password</a></label>
+                            </div>
+                            <div class="small-7 columns text-right">
+                                <button type="submit" class="button tiny green" style="padding:8px;width:75px"> Login</button>
+                            </div>
+                            <div class="small-1 columns text-right">&nbsp; </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src='http://plus.showseeker.com/js/jquery-1.7.2.min.js'></script>
+    <script src='http://plus.showseeker.com/js/jquery.event.drag-2.0.min.js'></script>
+    <script src='http://plus.showseeker.com/js/jquery.event.drop-2.0.min.js'></script>
+    <script src='http://plus.showseeker.com/inc/foundation/js/foundation.min.js'></script>
+    <script>
+    $(document).foundation();
+    $(function() {
+        if (window.location.href.indexOf("logout=true") !== -1) {
+            //its a forced logout
+            localStorage.removeItem("userId");
+            localStorage.removeItem("apiKey");
+        } else if (localStorage.getItem("userId") !== null && localStorage.getItem("apiKey") !== null) {
+            //User already logged in, redirect to app
+            window.location.href = "index.html";
+        }
+
+        $('#frm-login').submit(function() {
+            $("#login-error").hide();
+            var data = {
+                "email": $('#email').val(),
+                "password": $('#password').val(),
+                "location": 1
+            };
+            $.ajax({
+                type: 'post',
+                crossDomain: true,
+                cache: false,
+                url: "https://plusapi.showseeker.com/user/login",
+                dataType: "json",
+                processData: false,
+                contentType: 'application/json',
+                data: JSON.stringify(data),
+                success: function(resp) {
+                    if (resp.cnt == 0) {
+                        $("#login-error").show();
+                    } else {
+                        localStorage.setItem("userId", resp.id);
+                        localStorage.setItem("apiKey", resp.apiKey);
+                        window.location.href = "index.html";
+                    }
+                }
+            });
+            return false;
+        });
+    });
+    </script>
+</body>
+
+</html>

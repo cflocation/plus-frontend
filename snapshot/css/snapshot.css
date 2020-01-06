@@ -1,0 +1,23 @@
+.mainHeader{
+background-color: #F9E79F;
+border-bottom: 0;
+}
+
+.headerSnapShot{
+	color: #000000 !important;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 6px;
+	height: 20px;
+	line-height: 20px;
+	
+}
+
+.mainLogo{
+  display: block !important;
+  max-width:98px !important;
+  max-height:23px !important;
+  width: auto !important;
+  height: auto !important;
+}

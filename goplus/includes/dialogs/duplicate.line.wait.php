@@ -1,0 +1,1 @@
+<center>	<h3>Please wait while we duplicate your selected lines</h3>	<b>Now copying zone <span id="duplicate_zone_current">0</span> of <span id="duplicate_zone_total">0</span></b>	<br><br>	<img src="i/ajax.gif"></center>

@@ -1,0 +1,41 @@
+<div>
+	<div>
+		<div class="header_small-transparent" style="text-align:left;">
+			Select up to 3 demos
+		</div>
+		<div style="height: auto;">
+			<!-- form id="demoSelectorForm" -->
+			<table width="100%">
+				<tr>
+					<td width="33.3%">
+						<select id="demoGroup" class="rtgSelector rounded-corners">
+							<option value="0">Select Demo Group</option>
+						</select>
+					</td>
+					<td width="33.3%">
+						<select id="demoAgeFrom" class="rtgSelector rounded-corners" style="width:100%"></select>
+					</td>
+					<td width="33.3%">
+						<select id="demoAgeTo" class="rtgSelector rounded-corners" style="width:100%"></select>
+					</td>
+				</tr>
+			</table>
+			<!-- /form -->
+		</div>
+		
+		<div align="right" style="height: 35px; line-height: 35px;">
+			<button id="addDemo" class="btn-green">Add</button>
+			<button id="add-custom-demos" class="btn-blue disabledIcon" title="Add Custom Demographic" disabled="true">Save</button>
+			<button id="resetSelectedDemos" class="btn-red" title="Reset Demographic">Reset</button>
+		</div>
+		
+	</div>
+	<br>
+	<div>
+		<div class="headers-small download" style="text-align:left;">
+			Favorites
+		</div>
+		<div id="custom-demos-list" class="usrOptions" style="height:200px;">
+		</div>
+	</div>
+</div>

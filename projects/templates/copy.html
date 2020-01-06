@@ -1,0 +1,439 @@
+
+<i class="fa fa-calendar" aria-hidden="true"></i>
+
+<div zf-tabs="">
+<div zf-tab="" title="Calendar">
+
+<div class="grid-block">
+  <div class="grid-block grid-content small-12 medium-6">
+    
+
+
+<div class="small-12 grid-content">
+<h3>Zones</h3>
+</div>
+
+<div class="small-12 grid-content">
+    <section class="block-list">
+    <ul>
+    <li>
+    <span>Auburn</span>
+    <div class="switch">
+    <input type="checkbox" id="switchOne">
+    <label for="switchOne"></label>
+    </div>
+    </li>
+
+    <li>
+    <span>Marketwide</span>
+    <div class="switch">
+    <input type="checkbox" id="switch2">
+    <label for="switch2"></label>
+    </div>
+    </li>
+
+    <li>
+    <span>East</span>
+    <div class="switch">
+    <input type="checkbox" id="switch3">
+    <label for="switch3"></label>
+    </div>
+    </li>
+    </ul>
+
+    </section>
+</div>
+
+
+
+
+  </div>
+
+<div class="grid-block grid-content small-12 medium-6">
+
+
+<div class="grid-block ">
+<div class="grid-content"><h3>Instructions</h3></div>
+<div class="grid-content text-right"><a class="button small" href="#">New Instructions</a></div>
+</div>
+
+  
+
+
+<zf-accordion>
+<zf-accordion-item title="Instruction 1">
+<div class="small-12 grid-content">
+<h4>Header Dates</h4>
+</div>
+
+<div class="small-12 grid-content">
+<label>
+Flight Start
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Flight Stop
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<h4>Partial Dates</h4>
+</div>
+<div class="small-12 grid-content">
+<label>
+Flight Start
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Flight Stop
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<h4>Partial Details</h4>
+</div>
+<div class="small-12 grid-content">
+<label>
+Insert Order Instructions
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Notes
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+</zf-accordion-item>
+<zf-accordion-item title="Instruction 2">
+<div class="small-12 grid-content">
+<h4>Header Dates</h4>
+</div>
+
+<div class="small-12 grid-content">
+<label>
+Flight Start
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Flight Stop
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<h4>Partial Dates</h4>
+</div>
+<div class="small-12 grid-content">
+<label>
+Flight Start
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Flight Stop
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<h4>Partial Details</h4>
+</div>
+<div class="small-12 grid-content">
+<label>
+Insert Order Instructions
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Notes
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+</zf-accordion-item>
+<zf-accordion-item title="Instruction 3">
+<div class="small-12 grid-content">
+<h4>Header Dates</h4>
+</div>
+
+<div class="small-12 grid-content">
+<label>
+Flight Start
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Flight Stop
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<h4>Partial Dates</h4>
+</div>
+<div class="small-12 grid-content">
+<label>
+Flight Start
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Flight Stop
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<h4>Partial Details</h4>
+</div>
+<div class="small-12 grid-content">
+<label>
+Insert Order Instructions
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Notes
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+</zf-accordion-item>
+</zf-accordion>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div zf-tab="" title="Rotation">
+    <h2>Library</h2>
+      <table class="tables" ng-controller="CopyController">
+          <thead>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Length</th>
+            <th>Download</th>
+            <th>Updated</th>
+          </thead>
+          <tbody ng-repeat="item in library">
+              <tr>
+                  <td>{{item.name}}</td>
+                  <td>{{item.id}}</td>
+                  <td>{{item.length}}</td>
+                  <td>{{item.path}}</td>
+                  <td>{{item.updated}}</td>
+              </tr>
+          </tbody>
+      </table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div zf-modal="" id="basicModal">
+<a zf-close="" class="close-button">×</a>
+<h3>Tape 1</h3>
+
+<div class="small-12 grid-content">
+<label>
+ID
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Length
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Path
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Copy Revision #
+<input type="text" placeholder="Text field">
+</label>
+</div>
+
+<div class="small-12 grid-content">
+    <label>Script Attached</label>
+    <select name="" id="">
+        <option value="">NO</option>
+        <option value="">YES</option>
+    </select>
+</div>
+
+
+
+<div class="small-12 grid-content">
+    <label>Co-Op</label>
+    <select name="" id="">
+        <option value="">NO</option>
+        <option value="">YES</option>
+    </select>
+</div>
+
+
+<div class="small-12 grid-content">
+<label>
+Special Instructions
+<textarea></textarea>
+</label>
+</div>
+
+
+<div class="small-12 grid-content text-center">
+    <a class="success button" href="#">Save Changes</a>
+    <a class="alert button" href="#">Delete Spot</a>
+</div>
+
+</div>
+
+
+
+

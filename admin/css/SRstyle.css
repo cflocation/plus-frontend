@@ -1,0 +1,247 @@
+@media all and (max-width: 50em) {
+	.my-breakpoint .ui-block-a, 
+	.my-breakpoint .ui-block-b, 
+	.my-breakpoint .ui-block-c,
+	.my-breakpoint .ui-block-d,
+	.my-breakpoint .ui-block-e { 
+		width: 100%; 
+		float:none; 
+	}
+}
+
+
+
+table {
+    color: black;
+    background: #fff;
+    border: 1px solid #b4b4b4;
+    /*font: bold 17px helvetica;*/
+ border-spacing: 1px;
+    border-collapse: separate;    
+    
+    font-size:12px;
+    padding: 0;
+    margin-top:10px;
+    width: 100%;
+    -webkit-border-radius: 8px;
+}
+     
+table tr td {
+    color: #666;
+    border-bottom: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    padding: 10px 10px 10px 10px;
+  /*  background-image: -webkit-linear-gradient(top, #fdfdfd, #eee);*/
+}
+         
+table tr td:last-child {
+    border-right: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table th{
+	padding: 10px;
+}
+
+
+table a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+table.useraccounts  tr.rowCorporation td, 
+table.au_reportdata tr td.rowCorporation{
+	background: #FCEEEE;
+	color: #333333;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: none;
+}
+
+table.useraccounts tr.rowtotals td{
+	background-color: green;	
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: none;	
+}
+
+table.useraccounts tr.office_rowtotals{
+	background-color: #D9F0DB;
+	color: #666699;
+}
+
+
+table.useraccounts tr.market_rowtotals, 
+table.au_reportdata tr.market_rowtotals{
+	background-color: #FFFF99;
+	color: #333333;
+}
+
+
+table.useraccounts tr td.rowMarket, 
+table.au_reportdata tr td.rowMarket{
+	background: #184A74;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: none;
+}
+
+table.useraccounts tr td.rowOffice, 
+table.au_reportdata tr td.rowOffice{
+	background: #D0D0D0;
+	color:	#333;
+	font-weight: 700;
+	text-shadow: none;
+}
+
+
+
+table.officelisting{
+	padding: 0px;
+	margin: 0px;
+	background: #eeeeee;
+  	border-spacing: 0px;
+   border-collapse: collapse;	
+	border: none;
+	width: 100%;
+}
+
+
+.officelisting th{
+	font-size: 12pt;
+}
+
+.officelisting tr{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	width: 100%;
+}
+
+.officelisting td{
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 10px;			
+	margin: 0px;
+	border-bottom: solid 1px #ffffff;
+	border-top: none;  	
+	border-right: none;
+	border-left: none;		
+  	border-spacing: 0px;
+   border-collapse: collapse;	
+	font-size: 12pt;
+}
+
+
+
+#reportbody td.report{
+	text-align: center;
+}
+
+
+.nodata{
+	opacity:0.5;
+}
+
+
+.rowtotals{
+	background-color: #ffffcc;
+}
+
+.nopadding{
+    padding: 0;
+    margin: 0;
+}
+
+.noborder{
+	border:none;
+}
+
+.networkname{
+   width: 1 em;
+}
+
+.zonenetworks{
+	font-size: 12px;
+	font-family:"trebuchet MS","Lucida sans","Arial";
+	word-wrap: break-word;		
+   width: 4 em;  
+}
+
+.zonenetworks thead{
+	text-align: left;
+}
+
+.treven{
+	background-color: #f4f4f4;
+}
+
+
+.user-details-list{
+
+}
+
+.user-details-list-on{
+	background-color: #ffffdd;
+}
+
+
+label span.required{
+color:red;
+}
+
+.accountsdeleted{
+	background-color:#eee;
+	display:none;
+}
+
+.accountsdeleted td{
+	color:#aa9;
+}
+.incativeAnchor{
+	color:#aa9 !important;
+	text-decoration: none !important;
+}
+
+.demographics{
+	border: 1px #ddd solid;  
+	border-collapse: collapse;
+}
+
+.demographics tbody tr:hover {
+	background-color: #eeeeee;
+}  
+
+
+.demographics thead tr {
+	border-bottom: solid 2px #bbb;
+}  
+
+
+.demographics tbody td.td-demos{
+	font-size: 8pt;
+	text-align:center;
+}
+
+.ingreen{
+	background-color: #ccffcc;
+}
+.ui-bar-a {
+    border: 1px solid #333;
+    background: black !important;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 -1px 0 #000;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(),to(#236b29));
+    background-image: -webkit-linear-gradient(1d7c1b,#236b29);
+    background-image: -moz-linear-gradient(1d7c1b,#236b29);
+    background-image: -ms-linear-gradient(1d7c1b,#236b29);
+    background-image: -o-linear-gradient(1d7c1b,#236b29);
+    background-image: linear-gradient(1d7c1b,#236b29);
+}

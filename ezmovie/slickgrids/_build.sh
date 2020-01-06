@@ -1,0 +1,1 @@
+./compressJS.sh slick.core.js /plugins/slick.cellrangedecorator.js /plugins/slick.cellrangeselector.js /plugins/slick.cellselectionmodel.js /plugins/slick.rowselectionmodel.js /plugins/slick.rowmovemanager.js /plugins/slick.checkboxselectcolumn.js slick.formatters.js slick.editors.js slick.grid.js slick.dataview.js slick.groupitemmetadataprovider.js

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation for Apps</title>
+    <link href="./assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/templates.js"></script>
+    <script src="./assets/js/routes.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+  </head>
+  <body>
+    <div class="grid-frame vertical" ng-controller="AppWrapper">
+
+
+      <div class="primary title-bar">
+        <div class="center title">No Project Loaded</div>
+        <span class="left show-for-medium"><a href="#">Project Manager</a></span>
+        <span class="right"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></span>
+      </div>
+
+
+
+
+      <div ui-view class="grid-content"></div>
+
+
+        <ul class="icon-top menu-bar menu-border menu-bottom">
+          <li ng-click="setTab(1)" ng-class="{'menu-selected': tab==1}">
+            <a href="#!/production"><i class="fa fa-folder-open fa-lg" aria-hidden="true"></i><span class="show-for-medium"><br>Projects</span></a>
+          </li>
+
+          <li ng-click="setTab(2)" ng-class="{'menu-selected': tab==2}">
+            <a href="#!/header"><i class="fa fa-file fa-lg" aria-hidden="true"></i><span class="show-for-medium"><br>Header</span></a>
+          </li>
+          <li ng-click="setTab(3)" ng-class="{'menu-selected': tab==3}">
+            <a href="#!/story"><i class="fa fa-lightbulb-o fa-lg" aria-hidden="true"></i><span class="show-for-medium"><br>Story</span></a>
+          </li>
+          <li ng-click="setTab(4)" ng-class="{'menu-selected': tab==4}">
+            <a href="#!/dubs"><i class="fa fa-film fa-lg" aria-hidden="true"></i><span class="show-for-medium"><br>Dubs</span></a>
+          </li>
+         <li ng-click="setTab(5)" ng-class="{'menu-selected': tab==5}">
+            <a href="#!/billing"><i class="fa fa-usd fa-lg" aria-hidden="true"></i><span class="show-for-medium"><br>Billing</span></a>
+          </li>
+        </ul>
+
+    </div>
+
+ 
+
+
+      <div zf-modal="" id="newModal">
+      <a zf-close="" class="close-button">×</a>
+      <h4 class="subheader"><i class="fa fa-plus" aria-hidden="true"></i> New Production</h4>
+      <p>Use this form to create a new production.</p>
+
+      <label>
+      Name
+      <input type="text" placeholder="Text field">
+      </label>
+ 
+      <label>
+      Spot ID
+      <input type="text" placeholder="Text field">
+      </label>
+
+      <label>Length</label>
+      <select name="" id="">
+          <option value="">10</option>
+          <option value="">15</option>
+          <option value="" selected="selected">30</option>
+          <option value="">45</option>
+          <option value="">60</option>
+      </select>
+
+
+      <center>
+        <a class="success button" href="#"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save</a>
+        <a class="alert button" href="#" zf-close=""><i class="fa fa-times" aria-hidden="true"></i> Cancel</a>
+
+      </center>
+
+      </div>
+
+
+  </body>
+</html>
