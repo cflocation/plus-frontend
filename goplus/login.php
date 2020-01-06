@@ -1,7 +1,7 @@
 <?php
-	header("HTTP/1.1 301 Moved Permanently");
-	header("location: https://plus.showseeker.com/login.php?logout=true&app=plus");
-	exit;
+	//header("HTTP/1.1 301 Moved Permanently");
+	//header("location: https://plus.showseeker.com/login.php?logout=true&app=plus");
+	//exit;
 ?>
 <!DOCTYPE html>
 <html lang="en">
